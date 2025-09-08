@@ -26,19 +26,19 @@
             <div class="features-grid">
                 <div class="feature-card">
                     <h3>Гэча-система</h3>
-                    <p>Коллекционируйте редкие карты заклинаний через систему gacha</p>
+                    <p>  Коллекционируйте редкие карты заклинаний через систему gacha</p>
                 </div>
                 <div class="feature-card">
                     <h3>Кликер-майнинг</h3>
-                    <p>Зарабатывайте магическую энергию и улучшайте добычу маны</p>
+                    <p>  Зарабатывайте магическую энергию и улучшайте добычу маны</p>
                 </div>
                 <div class="feature-card">
                     <h3>Экшн-платформер</h3>
-                    <p>Сражайтесь с врагами используя собранные заклинания</p>
+                    <p>  Сражайтесь с врагами используя собранные заклинания</p>
                 </div>
                 <div class="feature-card">
                     <h3>Социальные функции</h3>
-                    <p>Обмен картами, рейтинги и достижения</p>
+                    <p>  Обмен картами, рейтинги и достижения</p>
                 </div>
             </div>
         </section>
@@ -47,19 +47,19 @@
             <div class="tech-stack">
                 <div class="tech-item">
                     <h3>Frontend</h3>
-                    <p>React.js / Vue.js</p>
+                    <p>  React.js / Vue.js</p>
                 </div>
                 <div class="tech-item">
                     <h3>Backend</h3>
-                    <p>ASP.NET Core</p>
+                    <p>  ASP.NET Core</p>
                 </div>
                 <div class="tech-item">
                     <h3>Database</h3>
-                    <p>PostgreSQL</p>
+                    <p>  PostgreSQL</p>
                 </div>
                 <div class="tech-item">
                     <h3>Game Engine</h3>
-                    <p>Phaser.js</p>
+                    <p>  Phaser.js</p>
                 </div>
             </div>
         </section>
@@ -68,19 +68,19 @@
             <div class="gameplay-steps">
                 <div class="step">
                     <div class="step-number">1</div>
-                    <p>Зарабатывайте ману через кликер-майнинг</p>
+                    <p>  Зарабатывайте ману через кликер-майнинг</p>
                 </div>
                 <div class="step">
                     <div class="step-number">2</div>
-                    <p>Получайте карты через gacha-систему</p>
+                    <p>  Получайте карты через gacha-систему</p>
                 </div>
                 <div class="step">
                     <div class="step-number">3</div>
-                    <p>Составляйте колоду из 5 заклинаний</p>
+                    <p>  Составляйте колоду из 5 заклинаний</p>
                 </div>
                 <div class="step">
                     <div class="step-number">4</div>
-                    <p>Сражайтесь в платформере против врагов</p>
+                    <p>  Сражайтесь в платформере против врагов</p>
                 </div>
             </div>
         </section>

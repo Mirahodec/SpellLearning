@@ -1,15 +1,15 @@
 # SpellLearning
 Индивидуальный проект по теме: Spell Learning
-![Логотип]( "Логотип GitHub")
-<p align="center">
-  <img src="a79bdfc5ba5156e0096d0dbe44a062c4.png" 
-       width="150" 
-       alt="Логотип GitHub">
-</p>
+
 <!DOCTYPE html>
 <html lang="ru">
 <head>
   <title>SpellLearning - Magical Card Adventure</title>
+  <p align="center">
+  <img src="a79bdfc5ba5156e0096d0dbe44a062c4.png" 
+       width="150" 
+       alt="Логотип GitHub">
+  </p>
   <style>
       * {
           margin: 0;

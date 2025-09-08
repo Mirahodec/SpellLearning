@@ -31,7 +31,7 @@
             <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin-top: 20px;">
                 <!-- Gacha System -->
                 <div style="background: rgba(255, 255, 255, 0.15); padding: 20px; border-radius: 10px; text-align: center; transition: transform 0.3s ease;" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='none'">
-                    <h3 style="color: #88d3ce; margin: 15px 0;">Гэча-система</h3>
+                    <h3 style="color: #88d3ce; margin: 15px 0; text-indent: 20px;">Гэча-система</h3>
                     <p>  Коллекционируйте редкие карты заклинаний через систему gacha. Уникальные артефакты и магические предметы для коллекции. Различные редкости карт: от обычных до легендарных.</p>
                 </div>
                 <!-- Clicker Mining -->

@@ -67,10 +67,6 @@
                     <h3 style="color: #88d3ce;">Database</h3>
                     <p>  PostgreSQL</p>
                 </div>
-                <div style="background: rgba(255, 255, 255, 0.1); padding: 15px; border-radius: 10px; text-align: center; min-width: 150px;">
-                    <h3 style="color: #88d3ce;">Game Engine</h3>
-                    <p>  Phaser.js для игровой части</p>
-                </div>
             </div>
         </section>
         <!-- Gameplay Section -->

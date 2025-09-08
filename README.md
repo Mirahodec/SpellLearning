@@ -11,7 +11,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SpellLearning - Magical Card Adventure</title>
+    <p>SpellLearning - Magical Card Adventure</p>
 </head>
 <body style="margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: linear-gradient(135deg, #0c0c2d 0%, #1a1a4a 100%); color: #ffffff; line-height: 1.6;">
     <div style="max-width: 1200px; margin: 0 auto; padding: 20px;">
@@ -32,22 +32,22 @@
                 <!-- Gacha System -->
                 <div style="background: rgba(255, 255, 255, 0.15); padding: 20px; border-radius: 10px; text-align: center; transition: transform 0.3s ease;" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='none'">
                     <h3 style="color: #88d3ce; margin: 15px 0;">Гэча-система</h3>
-                    <p>Коллекционируйте редкие карты заклинаний через систему gacha. Уникальные артефакты и магические предметы для коллекции. Различные редкости карт: от обычных до легендарных.</p>
+                    <p>  Коллекционируйте редкие карты заклинаний через систему gacha. Уникальные артефакты и магические предметы для коллекции. Различные редкости карт: от обычных до легендарных.</p>
                 </div>
                 <!-- Clicker Mining -->
                 <div style="background: rgba(255, 255, 255, 0.15); padding: 20px; border-radius: 10px; text-align: center; transition: transform 0.3s ease;" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='none'">
                     <h3 style="color: #88d3ce; margin: 15px 0;">Кликер-майнинг</h3>
-                    <p>Зарабатывайте магическую энергию кликами. Улучшайте добычу маны с помощью апгрейдов. Тратьте энергию на получение новых карт в gacha.</p>
+                    <p>  Зарабатывайте магическую энергию кликами. Улучшайте добычу маны с помощью апгрейдов. Тратьте энергию на получение новых карт в gacha.</p>
                 </div>
                 <!-- Platformer -->
                 <div style="background: rgba(255, 255, 255, 0.15); padding: 20px; border-radius: 10px; text-align: center; transition: transform 0.3s ease;" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='none'">
                     <h3 style="color: #88d3ce; margin: 15px 0;">Экшн-платформер</h3>
-                    <p>Сражайтесь с врагами используя собранные заклинания. Система выбора 5 заклинаний перед битвой. Динамичные бои в реальном времени.</p>
+                    <p>  Сражайтесь с врагами используя собранные заклинания. Система выбора 5 заклинаний перед битвой. Динамичные бои в реальном времени.</p>
                 </div>
                 <!-- Social Features -->
                 <div style="background: rgba(255, 255, 255, 0.15); padding: 20px; border-radius: 10px; text-align: center; transition: transform 0.3s ease;" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='none'">
                     <h3 style="color: #88d3ce; margin: 15px 0;">Социальные функции</h3>
-                    <p>Регистрация и система профилей. Обмен картами между игроками. Рейтинги и достижения.</p>
+                    <p>  Регистрация и система профилей. Обмен картами между игроками. Рейтинги и достижения.</p>
                 </div>
             </div>
         </section>
@@ -57,19 +57,19 @@
             <div style="display: flex; justify-content: space-around; flex-wrap: wrap; gap: 20px;">
                 <div style="background: rgba(255, 255, 255, 0.1); padding: 15px; border-radius: 10px; text-align: center; min-width: 150px;">
                     <h3 style="color: #88d3ce;">Frontend</h3>
-                    <p>React.js / Vue.js с анимациями</p>
+                    <p>  React.js / Vue.js с анимациями</p>
                 </div>
                 <div style="background: rgba(255, 255, 255, 0.1); padding: 15px; border-radius: 10px; text-align: center; min-width: 150px;">
                     <h3 style="color: #88d3ce;">Backend</h3>
-                    <p>ASP.NET Core Web API</p>
+                    <p>  ASP.NET Core Web API</p>
                 </div>
                 <div style="background: rgba(255, 255, 255, 0.1); padding: 15px; border-radius: 10px; text-align: center; min-width: 150px;">
                     <h3 style="color: #88d3ce;">Database</h3>
-                    <p>PostgreSQL/MongoDB</p>
+                    <p>  PostgreSQL</p>
                 </div>
                 <div style="background: rgba(255, 255, 255, 0.1); padding: 15px; border-radius: 10px; text-align: center; min-width: 150px;">
                     <h3 style="color: #88d3ce;">Game Engine</h3>
-                    <p>Phaser.js для игровой части</p>
+                    <p>  Phaser.js для игровой части</p>
                 </div>
             </div>
         </section>
@@ -79,19 +79,19 @@
             <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px;">
                 <div style="background: rgba(255, 255, 255, 0.1); padding: 20px; border-radius: 10px; text-align: center;">
                     <div style="background: #6e45e2; width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 15px; font-weight: bold;">1</div>
-                    <p>Зарабатывайте ману через кликер-майнинг</p>
+                    <p>  Зарабатывайте ману через кликер-майнинг</p>
                 </div>
                 <div style="background: rgba(255, 255, 255, 0.1); padding: 20px; border-radius: 10px; text-align: center;">
                     <div style="background: #6e45e2; width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 15px; font-weight: bold;">2</div>
-                    <p>Получайте карты через gacha-систему</p>
+                    <p>  Получайте карты через gacha-систему</p>
                 </div>
                 <div style="background: rgba(255, 255, 255, 0.1); padding: 20px; border-radius: 10px; text-align: center;">
                     <div style="background: #6e45e2; width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 15px; font-weight: bold;">3</div>
-                    <p>Составляйте колоду из 5 заклинаний</p>
+                    <p>  Составляйте колоду из 5 заклинаний</p>
                 </div>
                 <div style="background: rgba(255, 255, 255, 0.1); padding: 20px; border-radius: 10px; text-align: center;">
                     <div style="background: #6e45e2; width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 15px; font-weight: bold;">4</div>
-                    <p>Сражайтесь в платформере против врагов</p>
+                    <p>  Сражайтесь в платформере против врагов</p>
                 </div>
             </div>
         </section>

@@ -6,8 +6,6 @@
        width="150" 
        alt="Логотип GitHub">
 </p>
-<!DOCTYPE html>
-<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,20 +16,17 @@
             padding: 0;
             box-sizing: border-box;
         }
-
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             background: linear-gradient(135deg, #0c0c2d 0%, #1a1a4a 100%);
             color: #ffffff;
             line-height: 1.6;
         }
-
         .container {
             max-width: 1200px;
             margin: 0 auto;
             padding: 20px;
         }
-
         header {
             text-align: center;
             padding: 40px 0;
@@ -39,18 +34,15 @@
             border-radius: 15px;
             margin-bottom: 30px;
         }
-
         h1 {
             font-size: 3.5em;
             margin-bottom: 10px;
             text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
         }
-
         .subtitle {
             font-size: 1.5em;
             opacity: 0.9;
         }
-
         section {
             background: rgba(255, 255, 255, 0.1);
             border-radius: 15px;
@@ -58,7 +50,6 @@
             margin-bottom: 30px;
             backdrop-filter: blur(10px);
         }
-
         h2 {
             color: #ff6b6b;
             margin-bottom: 20px;
@@ -66,19 +57,16 @@
             border-bottom: 2px solid #6e45e2;
             padding-bottom: 10px;
         }
-
         h3 {
             color: #88d3ce;
             margin: 15px 0;
         }
-
         .features-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
             gap: 20px;
             margin-top: 20px;
         }
-
         .feature-card {
             background: rgba(255, 255, 255, 0.15);
             padding: 20px;
@@ -86,18 +74,15 @@
             text-align: center;
             transition: transform 0.3s ease;
         }
-
         .feature-card:hover {
             transform: translateY(-5px);
         }
-
         .tech-stack {
             display: flex;
             justify-content: space-around;
             flex-wrap: wrap;
             gap: 20px;
         }
-
         .tech-item {
             background: rgba(255, 255, 255, 0.1);
             padding: 15px;
@@ -105,20 +90,17 @@
             text-align: center;
             min-width: 150px;
         }
-
         .gameplay-steps {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
             gap: 20px;
         }
-
         .step {
             background: rgba(255, 255, 255, 0.1);
             padding: 20px;
             border-radius: 10px;
             text-align: center;
         }
-
         .step-number {
             background: #6e45e2;
             width: 40px;
@@ -130,24 +112,20 @@
             margin: 0 auto 15px;
             font-weight: bold;
         }
-
         footer {
             text-align: center;
             padding: 30px 0;
             margin-top: 50px;
         }
-
         .magic-text {
             font-size: 1.2em;
             color: #ff6b6b;
             font-style: italic;
         }
-
         @media (max-width: 768px) {
             h1 {
                 font-size: 2.5em;
-            }
-            
+            }   
             .features-grid {
                 grid-template-columns: 1fr;
             }
@@ -160,12 +138,10 @@
             <h1>🧙‍♂️ SpellLearning</h1>
             <p class="subtitle">Magical Card Adventure</p>
         </header>
-
         <section>
             <h2>✨ О проекте</h2>
             <p><strong>SpellLearning</strong> - это интерактивная веб-платформа, сочетающая в себе элементы коллекционной карточной игры, кликер-майнинга и платформера с магической тематикой.</p>
         </section>
-
         <section>
             <h2>🎴 Основные возможности</h2>
             <div class="features-grid">
@@ -187,7 +163,6 @@
                 </div>
             </div>
         </section>
-
         <section>
             <h2>🚀 Технологии</h2>
             <div class="tech-stack">
@@ -209,7 +184,6 @@
                 </div>
             </div>
         </section>
-
         <section>
             <h2>🎯 Игровой процесс</h2>
             <div class="gameplay-steps">
@@ -231,7 +205,6 @@
                 </div>
             </div>
         </section>
-
         <section>
             <h2>📦 Структура проекта</h2>
             <pre style="background: rgba(255,255,255,0.1); padding: 20px; border-radius: 10px; overflow-x: auto;">
@@ -243,7 +216,6 @@ SpellLearning/
 └── Docs/           # Документация
             </pre>
         </section>
-
         <section>
             <h2>🔮 Будущие обновления</h2>
             <ul style="list-style: none; padding: 20px;">
@@ -261,7 +233,6 @@ SpellLearning/
                 </li>
             </ul>
         </section>
-
         <footer>
             <p class="magic-text">✨ The magic is in your hands! ✨</p>
             <p>Присоединяйтесь к магическому приключению! Станьте могущественным магом и соберите самую сильную колоду заклинаний!</p>

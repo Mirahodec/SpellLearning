@@ -1,17 +1,17 @@
 # SpellLearning
 Индивидуальный проект по теме: Spell Learning
-<p>SpellLearning - Magical Card Adventure</p>
-  <p align="center">
-  <img src="a79bdfc5ba5156e0096d0dbe44a062c4.png" 
-       width="150" 
-       alt="Логотип GitHub">
-  </p>
+
 <!DOCTYPE html>
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <p>SpellLearning - Magical Card Adventure</p>
+    <p align="center">
+    <img src="a79bdfc5ba5156e0096d0dbe44a062c4.png" 
+         width="150" 
+         alt="Логотип GitHub">
+  </p>
 </head>
 <body style="margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: linear-gradient(135deg, #0c0c2d 0%, #1a1a4a 100%); color: #ffffff; line-height: 1.6;">
     <div style="max-width: 1200px; margin: 0 auto; padding: 20px;">

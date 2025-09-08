@@ -49,19 +49,19 @@
             <div class="tech-stack">
                 <div class="tech-item">
                     <h3>Frontend</h3>
-                    <p>React.js / Vue.js</p>
+                    <p>  React.js / Vue.js</p>
                 </div>
                 <div class="tech-item">
                     <h3>Backend</h3>
-                    <p>ASP.NET Core</p>
+                    <p>  ASP.NET Core</p>
                 </div>
                 <div class="tech-item">
                     <h3>Database</h3>
-                    <p>PostgreSQL</p>
+                    <p>  PostgreSQL</p>
                 </div>
                 <div class="tech-item">
                     <h3>Game Engine</h3>
-                    <p>Phaser.js</p>
+                    <p>  Phaser.js</p>
                 </div>
             </div>
         </section>
@@ -69,20 +69,16 @@
             <h2>🎯 Игровой процесс</h2>
             <div class="gameplay-steps">
                 <div class="step">
-                    <div class="step-number">1</div>
-                    <p>Зарабатывайте ману через кликер-майнинг</p>
+                    <div class="step-number">1 Зарабатывайте ману через кликер-майнинг</div>
                 </div>
                 <div class="step">
-                    <div class="step-number">2</div>
-                    <p>Получайте карты через gacha-систему</p>
+                    <div class="step-number">2 <p>Получайте карты через gacha-систему</p></div>
                 </div>
                 <div class="step">
-                    <div class="step-number">3</div>
-                    <p>Составляйте колоду из 5 заклинаний</p>
+                    <div class="step-number">3 <p>Составляйте колоду из 5 заклинаний</p></div>  
                 </div>
                 <div class="step">
-                    <div class="step-number">4</div>
-                    <p>Сражайтесь в платформере против врагов</p>
+                    <div class="step-number">4 <p>Сражайтесь в платформере против врагов</p></div>
                 </div>
             </div>
         </section>

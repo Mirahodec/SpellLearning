@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <title>SpellLearning - Magical Card Adventure</title>
+  <p>SpellLearning - Magical Card Adventure</p>
   <p align="center">
   <img src="a79bdfc5ba5156e0096d0dbe44a062c4.png" 
        width="150" 

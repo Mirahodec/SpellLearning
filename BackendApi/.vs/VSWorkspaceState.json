@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\BackendApi",
+    "\\BackendApi\\Controllers",
+    "\\DataAccess",
+    "\\DataAccess\\Models"
+  ],
+  "SelectedNode": "\\BackendApi.sln",
+  "PreviewInSolutionExplorer": false
+}

@@ -1,3 +1,11 @@
+using System.Reflection;
+using BusinessLogic.Interfaces;
+using BusinessLogic.Services;
+using DataAccess.Models;
+using DataAccess.Wrapper;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.OpenApi.Models;
+
 namespace BackendApi
 {
     public class Program
@@ -6,10 +14,13 @@ namespace BackendApi
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            // Add services to the container.
-
+            builder.Services.AddDbContext<SpellLearningContext>(
+                    options => options.UseNpgsql(
+                        "Server=localhost;Database=SpellLearning;User Id=postgres;Password=1;"));
+            builder.Services.AddScoped<IRepositoryWrapper, RepositoryWrapper>();
+            builder.Services.AddScoped<IUserService, UserService>();
+            
             builder.Services.AddControllers();
-            // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 

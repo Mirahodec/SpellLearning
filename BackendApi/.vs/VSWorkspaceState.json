@@ -6,6 +6,6 @@
     "\\DataAccess",
     "\\DataAccess\\Models"
   ],
-  "SelectedNode": "\\BackendApi.sln",
+  "SelectedNode": "\\DataAccess\\Models\\SpellLearningContext.cs",
   "PreviewInSolutionExplorer": false
 }

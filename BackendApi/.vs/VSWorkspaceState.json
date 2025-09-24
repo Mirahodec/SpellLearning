@@ -3,9 +3,11 @@
     "",
     "\\BackendApi",
     "\\BackendApi\\Controllers",
-    "\\DataAccess",
-    "\\DataAccess\\Models"
+    "\\BusinessLogic",
+    "\\BusinessLogic\\Services",
+    "\\DataAccess\\Models",
+    "\\DataAccess\\Wrapper"
   ],
-  "SelectedNode": "\\DataAccess\\Models\\SpellLearningContext.cs",
+  "SelectedNode": "\\BusinessLogic\\Services\\UserService.cs",
   "PreviewInSolutionExplorer": false
 }

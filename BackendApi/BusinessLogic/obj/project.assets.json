@@ -319,6 +319,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "Domain": "1.0.0",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "6.0.22"
         },
         "compile": {
@@ -326,6 +327,20 @@
         },
         "runtime": {
           "bin/placeholder/DataAccess.dll": {}
+        }
+      },
+      "Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.22",
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "6.0.22"
+        },
+        "compile": {
+          "bin/placeholder/Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Domain.dll": {}
         }
       }
     }
@@ -729,11 +744,17 @@
       "type": "project",
       "path": "../DataAccess/DataAccess.csproj",
       "msbuildProject": "../DataAccess/DataAccess.csproj"
+    },
+    "Domain/1.0.0": {
+      "type": "project",
+      "path": "../Domain/Domain.csproj",
+      "msbuildProject": "../Domain/Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "DataAccess >= 1.0.0"
+      "DataAccess >= 1.0.0",
+      "Domain >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -765,6 +786,9 @@
           "projectReferences": {
             "C:\\Users\\TenVladislav\\Documents\\GitHub\\SpellLearning\\BackendApi\\DataAccess\\DataAccess.csproj": {
               "projectPath": "C:\\Users\\TenVladislav\\Documents\\GitHub\\SpellLearning\\BackendApi\\DataAccess\\DataAccess.csproj"
+            },
+            "C:\\Users\\TenVladislav\\Documents\\GitHub\\SpellLearning\\BackendApi\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\TenVladislav\\Documents\\GitHub\\SpellLearning\\BackendApi\\Domain\\Domain.csproj"
             }
           }
         }

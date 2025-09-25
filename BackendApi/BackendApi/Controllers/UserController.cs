@@ -1,7 +1,7 @@
 ﻿using System.Text.Json;
 using BackendApi.Contracts.User;
-using BusinessLogic.Interfaces;
-using DataAccess.Models;
+using Domain.Interfaces;
+using Domain.Models;
 using Mapster;
 using Microsoft.AspNetCore.Mvc;
 
@@ -17,7 +17,7 @@ namespace BackendApi.Controllers
             _userService = userService;
         }
         /// <summary>
-        /// Получение данных пользователя
+        /// Получение данных 
         /// </summary>
         [HttpGet]
         public async Task<IActionResult> GetAll()
@@ -28,7 +28,7 @@ namespace BackendApi.Controllers
             return Ok(response);
         }
         /// <summary>
-        /// Получение данных по ID пользователя
+        /// Получение данных по ID 
         /// </summary>
         [HttpGet("{id}")]
         public async Task<IActionResult> GetById(int id)
@@ -39,7 +39,7 @@ namespace BackendApi.Controllers
             return Ok(response);
         }
         /// <summary>
-        /// Создание нового пользователя
+        /// Создание данных 
         /// </summary>
         /// <remarks>
         /// Пример запроса:
@@ -70,7 +70,7 @@ namespace BackendApi.Controllers
             return Ok();
         }
         /// <summary>
-        /// Изменить данные пользователя
+        /// Изменить данные 
         /// </summary>
         [HttpPut]
         public async Task<IActionResult> Update(GetUserResponse request)
@@ -80,7 +80,7 @@ namespace BackendApi.Controllers
             return Ok();
         }
         /// <summary>
-        /// Удалить данные пользователя
+        /// Удалить данные 
         /// </summary>
         [HttpDelete]
         public async Task<IActionResult> Delete(int id)

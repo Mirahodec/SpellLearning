@@ -1,0 +1,72 @@
+using System.Text.Json;
+using BackendApi.Contracts.UserUpgrade;
+using Domain.Interfaces;
+using Domain.Models;
+using Mapster;
+using Microsoft.AspNetCore.Mvc;
+
+namespace BackendApi.Controllers
+{
+    [Route("api/[controller]")]
+    [ApiController]
+    public class UserUpgradeController : ControllerBase
+    {
+        private IUserUpgradeService _UserUpgradeService;
+        public UserUpgradeController(IUserUpgradeService UserUpgradeService)
+        {
+            _UserUpgradeService = UserUpgradeService;
+        }
+        /// <summary>
+        /// Получение данных 
+        /// </summary>
+        [HttpGet]
+        public async Task<IActionResult> GetAll()
+        {
+            var result = await _UserUpgradeService.GetAll();
+            var response = result.Adapt < List<GetUserUpgradeResponse>>();
+
+            return Ok(response);
+        }
+        /// <summary>
+        /// Получение данных по ID 
+        /// </summary>
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetById(int id)
+        {
+            var result = await _UserUpgradeService.GetById(id);
+            var response =  result.Adapt<GetUserUpgradeResponse>();
+            
+            return Ok(response);
+        }
+        /// <summary>
+        /// Создание данных 
+        /// </summary>
+        [HttpPost]
+        public async Task<IActionResult> Add(CreateUserUpgradeRequest request)
+        {
+            var UserUpgradeDto = request.Adapt<UserUpgrade>();
+            await _UserUpgradeService.Create(UserUpgradeDto);
+            return Ok();
+        }
+        /// <summary>
+        /// Изменить данные 
+        /// </summary>
+        [HttpPut]
+        public async Task<IActionResult> Update(GetUserUpgradeResponse request)
+        {
+            var UserUpgradeDto = request.Adapt<UserUpgrade>();
+            await _UserUpgradeService.Update(UserUpgradeDto);
+            return Ok();
+        }
+        /// <summary>
+        /// Удалить данные 
+        /// </summary>
+        [HttpDelete]
+        public async Task<IActionResult> Delete(int id)
+        {
+            await _UserUpgradeService.Delete(id);
+            return Ok();
+        }
+    }
+}
+

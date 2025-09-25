@@ -8,7 +8,8 @@
     ".NETCoreApp,Version=v6.0": {
       "BusinessLogic/1.0.0": {
         "dependencies": {
-          "DataAccess": "1.0.0"
+          "DataAccess": "1.0.0",
+          "Domain": "1.0.0"
         },
         "runtime": {
           "BusinessLogic.dll": {}
@@ -199,10 +200,20 @@
       "System.Runtime.CompilerServices.Unsafe/6.0.0": {},
       "DataAccess/1.0.0": {
         "dependencies": {
+          "Domain": "1.0.0",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "6.0.22"
         },
         "runtime": {
           "DataAccess.dll": {}
+        }
+      },
+      "Domain/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.22",
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "6.0.22"
+        },
+        "runtime": {
+          "Domain.dll": {}
         }
       }
     }
@@ -340,6 +351,11 @@
       "hashPath": "system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
     },
     "DataAccess/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

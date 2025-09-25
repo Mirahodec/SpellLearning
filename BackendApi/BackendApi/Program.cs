@@ -1,7 +1,7 @@
 using System.Reflection;
-using BusinessLogic.Interfaces;
+using Domain.Interfaces;
 using BusinessLogic.Services;
-using DataAccess.Models;
+using Domain.Models;
 using DataAccess.Wrapper;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
@@ -17,9 +17,19 @@ namespace BackendApi
             builder.Services.AddDbContext<SpellLearningContext>(
                     options => options.UseNpgsql(
                         "Server=localhost;Database=SpellLearning;User Id=postgres;Password=1;"));
+
             builder.Services.AddScoped<IRepositoryWrapper, RepositoryWrapper>();
             builder.Services.AddScoped<IUserService, UserService>();
-            
+            builder.Services.AddScoped<IGachaPullService, GachaPullService>();
+            builder.Services.AddScoped<IGameSafeService, GameSafeService>();
+            builder.Services.AddScoped<ISpellService, SpellService>();
+            builder.Services.AddScoped<ITraceService, TraceService>();
+            builder.Services.AddScoped<IUserClickerUpgradeService, UserClickerUpgradeService>();
+            builder.Services.AddScoped<IUserDeckService, UserDeckService>();
+            builder.Services.AddScoped<IUserInventoryService, UserInventoryService>();
+            builder.Services.AddScoped<IUserUpgradeService, UserUpgradeService>();
+            builder.Services.AddScoped<IDeckSlotService, DeckSlotService>();
+
             builder.Services.AddControllers();
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen(options =>

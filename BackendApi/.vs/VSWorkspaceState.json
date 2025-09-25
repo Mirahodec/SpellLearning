@@ -1,13 +1,5 @@
 {
-  "ExpandedNodes": [
-    "",
-    "\\BackendApi",
-    "\\BackendApi\\Controllers",
-    "\\BusinessLogic",
-    "\\BusinessLogic\\Services",
-    "\\DataAccess\\Models",
-    "\\DataAccess\\Wrapper"
-  ],
-  "SelectedNode": "\\BusinessLogic\\Services\\UserService.cs",
+  "ExpandedNodes": [],
+  "SelectedNode": "\\BackendApi.sln",
   "PreviewInSolutionExplorer": false
 }

@@ -77,3 +77,5 @@ C:\Users\TenVladislav\Documents\GitHub\SpellLearning\BackendApi\BackendApi\bin\D
 C:\Users\TenVladislav\Documents\GitHub\SpellLearning\BackendApi\BackendApi\bin\Debug\net6.0\BackendApi.xml
 C:\Users\TenVladislav\Documents\GitHub\SpellLearning\BackendApi\BackendApi\obj\Debug\net6.0\BackendApi.xml
 C:\Users\TenVladislav\Documents\GitHub\SpellLearning\BackendApi\BackendApi\bin\Debug\net6.0\Mapster.dll
+C:\Users\TenVladislav\Documents\GitHub\SpellLearning\BackendApi\BackendApi\bin\Debug\net6.0\Domain.dll
+C:\Users\TenVladislav\Documents\GitHub\SpellLearning\BackendApi\BackendApi\bin\Debug\net6.0\Domain.pdb

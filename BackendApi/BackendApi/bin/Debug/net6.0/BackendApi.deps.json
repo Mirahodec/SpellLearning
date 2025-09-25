@@ -9,6 +9,7 @@
       "BackendApi/1.0.0": {
         "dependencies": {
           "BusinessLogic": "1.0.0",
+          "DataAccess": "1.0.0",
           "Mapster": "6.0.0",
           "Swashbuckle.AspNetCore": "6.5.0"
         },
@@ -438,7 +439,8 @@
       },
       "BusinessLogic/1.0.0": {
         "dependencies": {
-          "DataAccess": "1.0.0"
+          "DataAccess": "1.0.0",
+          "Domain": "1.0.0"
         },
         "runtime": {
           "BusinessLogic.dll": {}
@@ -446,10 +448,20 @@
       },
       "DataAccess/1.0.0": {
         "dependencies": {
+          "Domain": "1.0.0",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "6.0.22"
         },
         "runtime": {
           "DataAccess.dll": {}
+        }
+      },
+      "Domain/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.22",
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "6.0.22"
+        },
+        "runtime": {
+          "Domain.dll": {}
         }
       }
     }
@@ -823,6 +835,11 @@
       "sha512": ""
     },
     "DataAccess/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

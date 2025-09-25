@@ -4,19 +4,169 @@
         <name>BackendApi</name>
     </assembly>
     <members>
+        <member name="M:BackendApi.Controllers.DeckSlotController.GetAll">
+            <summary>
+            Получение данных 
+            </summary>
+        </member>
+        <member name="M:BackendApi.Controllers.DeckSlotController.GetById(System.Int32)">
+            <summary>
+            Получение данных по ID
+            </summary>
+        </member>
+        <member name="M:BackendApi.Controllers.DeckSlotController.Add(BackendApi.Contracts.DeckSlot.CreateDeckSlotRequest)">
+            <summary>
+            Создание данных 
+            </summary>
+        </member>
+        <member name="M:BackendApi.Controllers.DeckSlotController.Update(BackendApi.Contracts.DeckSlot.GetDeckSlotResponse)">
+            <summary>
+            Изменить данные
+            </summary>
+        </member>
+        <member name="M:BackendApi.Controllers.DeckSlotController.Delete(System.Int32)">
+            <summary>
+            Удалить данные
+            </summary>
+        </member>
+        <member name="M:BackendApi.Controllers.GachaPullController.GetAll">
+            <summary>
+            Получение данных 
+            </summary>
+        </member>
+        <member name="M:BackendApi.Controllers.GachaPullController.GetById(System.Int32)">
+            <summary>
+            Получение данных по ID
+            </summary>
+        </member>
+        <member name="M:BackendApi.Controllers.GachaPullController.Add(BackendApi.Contracts.GachaPull.CreateGachaPullRequest)">
+            <summary>
+            Создание данных 
+            </summary>
+        </member>
+        <member name="M:BackendApi.Controllers.GachaPullController.Update(BackendApi.Contracts.GachaPull.GetGachaPullResponse)">
+            <summary>
+            Изменить данные 
+            </summary>
+        </member>
+        <member name="M:BackendApi.Controllers.GachaPullController.Delete(System.Int32)">
+            <summary>
+            Удалить данные
+            </summary>
+        </member>
+        <member name="M:BackendApi.Controllers.GameSafeController.GetAll">
+            <summary>
+            Получение данных 
+            </summary>
+        </member>
+        <member name="M:BackendApi.Controllers.GameSafeController.GetById(System.Int32)">
+            <summary>
+            Получение данных по ID 
+            </summary>
+        </member>
+        <member name="M:BackendApi.Controllers.GameSafeController.Add(BackendApi.Contracts.GameSafe.CreateGameSafeRequest)">
+            <summary>
+            Создание данных 
+            </summary>
+        </member>
+        <member name="M:BackendApi.Controllers.GameSafeController.Update(BackendApi.Contracts.GameSafe.GetGameSafeResponse)">
+            <summary>
+            Изменить данные 
+            </summary>
+        </member>
+        <member name="M:BackendApi.Controllers.GameSafeController.Delete(System.Int32)">
+            <summary>
+            Удалить данные 
+            </summary>
+        </member>
+        <member name="M:BackendApi.Controllers.SpellController.GetAll">
+            <summary>
+            Получение данных 
+            </summary>
+        </member>
+        <member name="M:BackendApi.Controllers.SpellController.GetById(System.Int32)">
+            <summary>
+            Получение данных по ID 
+            </summary>
+        </member>
+        <member name="M:BackendApi.Controllers.SpellController.Add(BackendApi.Contracts.Spell.CreateSpellRequest)">
+            <summary>
+            Создание данных 
+            </summary>
+        </member>
+        <member name="M:BackendApi.Controllers.SpellController.Update(BackendApi.Contracts.Spell.GetSpellResponse)">
+            <summary>
+            Изменить данные 
+            </summary>
+        </member>
+        <member name="M:BackendApi.Controllers.SpellController.Delete(System.Int32)">
+            <summary>
+            Удалить данные 
+            </summary>
+        </member>
+        <member name="M:BackendApi.Controllers.TraceController.GetAll">
+            <summary>
+            Получение данных 
+            </summary>
+        </member>
+        <member name="M:BackendApi.Controllers.TraceController.GetById(System.Int32)">
+            <summary>
+            Получение данных по ID 
+            </summary>
+        </member>
+        <member name="M:BackendApi.Controllers.TraceController.Add(BackendApi.Contracts.Trace.CreateTraceRequest)">
+            <summary>
+            Создание данных 
+            </summary>
+        </member>
+        <member name="M:BackendApi.Controllers.TraceController.Update(BackendApi.Contracts.Trace.GetTraceResponse)">
+            <summary>
+            Изменить данные 
+            </summary>
+        </member>
+        <member name="M:BackendApi.Controllers.TraceController.Delete(System.Int32)">
+            <summary>
+            Удалить данные 
+            </summary>
+        </member>
+        <member name="M:BackendApi.Controllers.UserClickerUpgradeController.GetAll">
+            <summary>
+            Получение данных 
+            </summary>
+        </member>
+        <member name="M:BackendApi.Controllers.UserClickerUpgradeController.GetById(System.Int32)">
+            <summary>
+            Получение данных по ID 
+            </summary>
+        </member>
+        <member name="M:BackendApi.Controllers.UserClickerUpgradeController.Add(BackendApi.Contracts.UserClickerUpgrade.CreateUserClickerUpgradeRequest)">
+            <summary>
+            Создание данных 
+            </summary>
+        </member>
+        <member name="M:BackendApi.Controllers.UserClickerUpgradeController.Update(BackendApi.Contracts.UserClickerUpgrade.GetUserClickerUpgradeResponse)">
+            <summary>
+            Изменить данные 
+            </summary>
+        </member>
+        <member name="M:BackendApi.Controllers.UserClickerUpgradeController.Delete(System.Int32)">
+            <summary>
+            Удалить данные 
+            </summary>
+        </member>
         <member name="M:BackendApi.Controllers.UserController.GetAll">
             <summary>
-            Получение данных пользователя
+            Получение данных 
             </summary>
         </member>
         <member name="M:BackendApi.Controllers.UserController.GetById(System.Int32)">
             <summary>
-            Получение данных по ID пользователя
+            Получение данных по ID 
             </summary>
         </member>
         <member name="M:BackendApi.Controllers.UserController.Add(BackendApi.Contracts.User.CreateUserRequest)">
              <summary>
-             Создание нового пользователя
+             Создание данных 
              </summary>
              <remarks>
              Пример запроса:
@@ -39,12 +189,87 @@
         </member>
         <member name="M:BackendApi.Controllers.UserController.Update(BackendApi.Contracts.User.GetUserResponse)">
             <summary>
-            Изменить данные пользователя
+            Изменить данные 
             </summary>
         </member>
         <member name="M:BackendApi.Controllers.UserController.Delete(System.Int32)">
             <summary>
+            Удалить данные 
+            </summary>
+        </member>
+        <member name="M:BackendApi.Controllers.UserDeckController.GetAll">
+            <summary>
+            Получение данных 
+            </summary>
+        </member>
+        <member name="M:BackendApi.Controllers.UserDeckController.GetById(System.Int32)">
+            <summary>
+            Получение данных по ID 
+            </summary>
+        </member>
+        <member name="M:BackendApi.Controllers.UserDeckController.Add(BackendApi.Contracts.UserDeck.CreateUserDeckRequest)">
+            <summary>
+            Создание данных 
+            </summary>
+        </member>
+        <member name="M:BackendApi.Controllers.UserDeckController.Update(BackendApi.Contracts.UserDeck.GetUserDeckResponse)">
+            <summary>
+            Изменить данные 
+            </summary>
+        </member>
+        <member name="M:BackendApi.Controllers.UserDeckController.Delete(System.Int32)">
+            <summary>
+            Удалить данные 
+            </summary>
+        </member>
+        <member name="M:BackendApi.Controllers.UserInventoryController.GetAll">
+            <summary>
+            Получение данных 
+            </summary>
+        </member>
+        <member name="M:BackendApi.Controllers.UserInventoryController.GetById(System.Int32)">
+            <summary>
+            Получение данных по ID 
+            </summary>
+        </member>
+        <member name="M:BackendApi.Controllers.UserInventoryController.Add(BackendApi.Contracts.UserInventory.CreateUserInventoryRequest)">
+            <summary>
+            Создание данных 
+            </summary>
+        </member>
+        <member name="M:BackendApi.Controllers.UserInventoryController.Update(BackendApi.Contracts.UserInventory.GetUserInventoryResponse)">
+            <summary>
+            Изменить данные пользователя
+            </summary>
+        </member>
+        <member name="M:BackendApi.Controllers.UserInventoryController.Delete(System.Int32)">
+            <summary>
             Удалить данные пользователя
+            </summary>
+        </member>
+        <member name="M:BackendApi.Controllers.UserUpgradeController.GetAll">
+            <summary>
+            Получение данных 
+            </summary>
+        </member>
+        <member name="M:BackendApi.Controllers.UserUpgradeController.GetById(System.Int32)">
+            <summary>
+            Получение данных по ID 
+            </summary>
+        </member>
+        <member name="M:BackendApi.Controllers.UserUpgradeController.Add(BackendApi.Contracts.UserUpgrade.CreateUserUpgradeRequest)">
+            <summary>
+            Создание данных 
+            </summary>
+        </member>
+        <member name="M:BackendApi.Controllers.UserUpgradeController.Update(BackendApi.Contracts.UserUpgrade.GetUserUpgradeResponse)">
+            <summary>
+            Изменить данные 
+            </summary>
+        </member>
+        <member name="M:BackendApi.Controllers.UserUpgradeController.Delete(System.Int32)">
+            <summary>
+            Удалить данные 
             </summary>
         </member>
     </members>

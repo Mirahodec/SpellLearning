@@ -39,26 +39,25 @@ namespace BackendApi.Controllers
             return Ok(response);
         }
         /// <summary>
-        /// Создание данных 
+        /// Создание нового пользователя
         /// </summary>
         /// <remarks>
         /// Пример запроса:
         ///
-        ///     POST /Todo
+        ///     POST /Users
         ///     {
-        ///       "userId": 6,
         ///       "username": "SilverArrow",
         ///       "email": "olga.vasilieva@email.com",
         ///       "passwordHash": "$2b$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi",
         ///       "createdAt": "2024-02-22T13:50:00",
         ///       "lastLogin": "2024-03-20T14:35:00",
         ///       "currencyClick": 4800,
-        ///       "currencyGame": 1200,
+        ///       "currencyGame": 1200
         ///     }
         ///
         /// </remarks>
-        /// <param name="model">Пользователь</param>
-        /// <returns></returns>
+        /// <param name="model">Данные пользователя</param>
+        /// <returns>Созданный пользователь</returns>
 
         // POST api/<UsersController>
 

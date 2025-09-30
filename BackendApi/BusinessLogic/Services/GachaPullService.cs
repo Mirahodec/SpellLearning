@@ -27,13 +27,13 @@ namespace BusinessLogic.Services
         public async Task Create(GachaPull model)
         {
             await _repositoryWrapper.GachaPull.Create(model);
-            _repositoryWrapper.Save();
+            await _repositoryWrapper.Save();
         }
 
         public async Task Update(GachaPull model)
         {
-            _repositoryWrapper.GachaPull.Update(model);
-            _repositoryWrapper.Save();
+            await _repositoryWrapper.GachaPull.Update(model);
+            await _repositoryWrapper.Save();
         }
 
         public async Task Delete(int id)
@@ -41,8 +41,8 @@ namespace BusinessLogic.Services
             var gachaPull = await _repositoryWrapper.GachaPull
                 .FindByCondition(x => x.PullId == id);
 
-            _repositoryWrapper.GachaPull.Delete(gachaPull.First());
-            _repositoryWrapper.Save();
+            await _repositoryWrapper.GachaPull.Delete(gachaPull.First());
+            await _repositoryWrapper.Save();
         }
     }
 }

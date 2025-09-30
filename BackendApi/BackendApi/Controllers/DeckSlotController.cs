@@ -39,8 +39,21 @@ namespace BackendApi.Controllers
             return Ok(response);
         }
         /// <summary>
-        /// Создание данных 
+        /// Добавление заклинания в слот колоды
         /// </summary>
+        /// <remarks>
+        /// Пример запроса:
+        ///
+        ///     POST /DeckSlots
+        ///     {
+        ///       "deckId": 1,
+        ///       "inventoryId": 3,
+        ///       "slotNumber": 2
+        ///     }
+        ///
+        /// </remarks>
+        /// <param name="model">Данные слота колоды</param>
+        /// <returns>Созданный слот</returns>
 
         [HttpPost]
         public async Task<IActionResult> Add(CreateDeckSlotRequest request)

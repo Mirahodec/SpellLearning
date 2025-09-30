@@ -1,5 +1,5 @@
 using System.Text.Json;
-using BackendApi.Contracts.Trace;
+using BackendApi.Contracts.TraceRequest;
 using Domain.Interfaces;
 using Domain.Models;
 using Mapster;
@@ -39,8 +39,24 @@ namespace BackendApi.Controllers
             return Ok(response);
         }
         /// <summary>
-        /// Создание данных 
+        /// Создание предложения обмена
         /// </summary>
+        /// <remarks>
+        /// Пример запроса:
+        ///
+        ///     POST /Traces
+        ///     {
+        ///       "userIdOffer": 1,
+        ///       "userIdReceive": 2,
+        ///       "inventoryIdOffer": 5,
+        ///       "inventoryIdWant": 11,
+        ///       "status": "ожидание",
+        ///       "createdAt": "2024-02-05T14:30:00"
+        ///     }
+        ///
+        /// </remarks>
+        /// <param name="model">Данные обмена</param>
+        /// <returns>Созданный обмен</returns>
         [HttpPost]
         public async Task<IActionResult> Add(CreateTraceRequest request)
         {

@@ -39,8 +39,20 @@ namespace BackendApi.Controllers
             return Ok(response);
         }
         /// <summary>
-        /// Создание данных 
+        /// Создание новой колоды
         /// </summary>
+        /// <remarks>
+        /// Пример запроса:
+        ///
+        ///     POST /UserDecks
+        ///     {
+        ///       "userId": 1,
+        ///       "deckName": "Основная боевая"
+        ///     }
+        ///
+        /// </remarks>
+        /// <param name="model">Данные колоды</param>
+        /// <returns>Созданная колода</returns>
         [HttpPost]
         public async Task<IActionResult> Add(CreateUserDeckRequest request)
         {

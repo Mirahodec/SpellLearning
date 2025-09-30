@@ -27,13 +27,13 @@ namespace BusinessLogic.Services
         public async Task Create(UserDeck model)
         {
             await _repositoryWrapper.UserDeck.Create(model);
-            _repositoryWrapper.Save();
+            await _repositoryWrapper.Save();
         }
 
         public async Task Update(UserDeck model)
         {
-            _repositoryWrapper.UserDeck.Update(model);
-            _repositoryWrapper.Save();
+            await _repositoryWrapper.UserDeck.Update(model);
+            await _repositoryWrapper.Save();
         }
 
         public async Task Delete(int id)
@@ -41,8 +41,8 @@ namespace BusinessLogic.Services
             var userDeck = await _repositoryWrapper.UserDeck
                 .FindByCondition(x => x.DeckId == id);
 
-            _repositoryWrapper.UserDeck.Delete(userDeck.First());
-            _repositoryWrapper.Save();
+            await _repositoryWrapper.UserDeck.Delete(userDeck.First());
+            await _repositoryWrapper.Save();
         }
     }
 }

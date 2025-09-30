@@ -39,8 +39,28 @@ namespace BackendApi.Controllers
             return Ok(response);
         }
         /// <summary>
-        /// Создание данных 
+        /// Создание/обновление игрового сохранения
         /// </summary>
+        /// <remarks>
+        /// Пример запроса:
+        ///
+        ///     POST /GameSaves
+        ///     {
+        ///       "userId": 1,
+        ///       "level": 25,
+        ///       "highScore": 125000,
+        ///       "equippedDeckId": 1,
+        ///       "saveData": {
+        ///         "прогресс": 78,
+        ///         "открытые_уровни": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15],
+        ///         "завершенные_квесты": [1,2,3,4,5]
+        ///       },
+        ///       "lastUpdated": "2024-03-20T18:45:00"
+        ///     }
+        ///
+        /// </remarks>
+        /// <param name="model">Данные сохранения</param>
+        /// <returns>Созданное сохранение</returns>
         [HttpPost]
         public async Task<IActionResult> Add(CreateGameSafeRequest request)
         {

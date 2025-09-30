@@ -39,8 +39,21 @@ namespace BackendApi.Controllers
             return Ok(response);
         }
         /// <summary>
-        /// Создание данных 
+        /// Добавление заклинания в инвентарь пользователя
         /// </summary>
+        /// <remarks>
+        /// Пример запроса:
+        ///
+        ///     POST /UserInventory
+        ///     {
+        ///       "userId": 1,
+        ///       "spellId": 3,
+        ///       "obtainedAt": "2024-01-20T09:15:00"
+        ///     }
+        ///
+        /// </remarks>
+        /// <param name="model">Данные инвентаря</param>
+        /// <returns>Запись в инвентаре</returns>
         [HttpPost]
         public async Task<IActionResult> Add(CreateUserInventoryRequest request)
         {

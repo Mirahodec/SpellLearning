@@ -841,19 +841,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\TenVladislav\\.nuget\\packages\\": {}
+    "C:\\Users\\Student\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\TenVladislav\\Documents\\GitHub\\SpellLearning\\BackendApi\\DataAccess\\DataAccess.csproj",
+      "projectUniqueName": "C:\\Users\\Student\\Desktop\\BackendApi\\DataAccess\\DataAccess.csproj",
       "projectName": "DataAccess",
-      "projectPath": "C:\\Users\\TenVladislav\\Documents\\GitHub\\SpellLearning\\BackendApi\\DataAccess\\DataAccess.csproj",
-      "packagesPath": "C:\\Users\\TenVladislav\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\TenVladislav\\Documents\\GitHub\\SpellLearning\\BackendApi\\DataAccess\\obj\\",
+      "projectPath": "C:\\Users\\Student\\Desktop\\BackendApi\\DataAccess\\DataAccess.csproj",
+      "packagesPath": "C:\\Users\\Student\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Student\\Desktop\\BackendApi\\DataAccess\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\TenVladislav\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Student\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -867,8 +872,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\TenVladislav\\Documents\\GitHub\\SpellLearning\\BackendApi\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\TenVladislav\\Documents\\GitHub\\SpellLearning\\BackendApi\\Domain\\Domain.csproj"
+            "C:\\Users\\Student\\Desktop\\BackendApi\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\Student\\Desktop\\BackendApi\\Domain\\Domain.csproj"
             }
           }
         }
@@ -877,7 +882,13 @@
         "warnAsError": [
           "NU1605"
         ]
-      }
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net6.0": {
@@ -910,7 +921,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304\\RuntimeIdentifierGraph.json"
       }
     }
   }

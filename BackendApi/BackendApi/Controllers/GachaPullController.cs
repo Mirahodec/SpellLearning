@@ -1,5 +1,5 @@
 using System.Text.Json;
-using BackendApi.Contracts.GachaPull;
+using BackendApi.Contracts.GachPull;
 using Domain.Interfaces;
 using Domain.Models;
 using Mapster;
@@ -39,8 +39,21 @@ namespace BackendApi.Controllers
             return Ok(response);
         }
         /// <summary>
-        /// Создание данных 
+        /// Запись результата крутки гача
         /// </summary>
+        /// <remarks>
+        /// Пример запроса:
+        ///
+        ///     POST /GachaPulls
+        ///     {
+        ///       "userId": 1,
+        ///       "spellId": 2,
+        ///       "pullDate": "2024-01-17T14:30:00"
+        ///     }
+        ///
+        /// </remarks>
+        /// <param name="model">Данные крутки</param>
+        /// <returns>Запись о крутке</returns>
         [HttpPost]
         public async Task<IActionResult> Add(CreateGachaPullRequest request)
         {

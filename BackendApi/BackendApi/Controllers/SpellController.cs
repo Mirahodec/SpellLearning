@@ -1,5 +1,5 @@
 using System.Text.Json;
-using BackendApi.Contracts.Spell;
+using BackendApi.Contracts.SpellRequest;
 using Domain.Interfaces;
 using Domain.Models;
 using Mapster;
@@ -39,8 +39,25 @@ namespace BackendApi.Controllers
             return Ok(response);
         }
         /// <summary>
-        /// Создание данных 
+        /// Создание нового заклинания
         /// </summary>
+        /// <remarks>
+        /// Пример запроса:
+        ///
+        ///     POST /Spells
+        ///     {
+        ///       "name": "Огненный шар",
+        ///       "description": "Базовое огненное заклинание, наносит умеренный урон",
+        ///       "costCurrency": "game",
+        ///       "rarity": "обычная",
+        ///       "costAmount": 5,
+        ///       "baseDamage": 15,
+        ///       "gameEffectCode": "damage_fire_single"
+        ///     }
+        ///
+        /// </remarks>
+        /// <param name="model">Данные заклинания</param>
+        /// <returns>Созданное заклинание</returns>
         [HttpPost]
         public async Task<IActionResult> Add(CreateSpellRequest request)
         {

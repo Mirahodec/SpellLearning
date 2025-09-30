@@ -39,8 +39,22 @@ namespace BackendApi.Controllers
             return Ok(response);
         }
         /// <summary>
-        /// Создание данных 
+        /// Покупка улучшения кликера пользователем
         /// </summary>
+        /// <remarks>
+        /// Пример запроса:
+        ///
+        ///     POST /UserClickerUpgrades
+        ///     {
+        ///       "userId": 1,
+        ///       "upgradeId": 3,
+        ///       "quantity": 1,
+        ///       "purchasedLast": "2024-02-10T12:30:00"
+        ///     }
+        ///
+        /// </remarks>
+        /// <param name="model">Данные улучшения кликера</param>
+        /// <returns>Запись о покупке</returns>
         [HttpPost]
         public async Task<IActionResult> Add(CreateUserClickerUpgradeRequest request)
         {

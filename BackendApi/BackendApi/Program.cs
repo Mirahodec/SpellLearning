@@ -12,11 +12,13 @@ namespace BackendApi
     {
         public static void Main(string[] args)
         {
+            AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
+
             var builder = WebApplication.CreateBuilder(args);
 
             builder.Services.AddDbContext<SpellLearningContext>(
                     options => options.UseNpgsql(
-                        "Server=localhost;Database=SpellLearning;User Id=postgres;Password=1;"));
+                        "Server=localhost;Database=postgres;User Id=postgres;Password=123456;"));
 
             builder.Services.AddScoped<IRepositoryWrapper, RepositoryWrapper>();
             builder.Services.AddScoped<IUserService, UserService>();

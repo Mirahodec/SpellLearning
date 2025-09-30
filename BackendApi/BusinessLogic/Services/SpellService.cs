@@ -27,13 +27,13 @@ namespace BusinessLogic.Services
         public async Task Create(Spell model)
         {
             await _repositoryWrapper.Spell.Create(model);
-            _repositoryWrapper.Save();
+            await _repositoryWrapper.Save();
         }
 
         public async Task Update(Spell model)
         {
-            _repositoryWrapper.Spell.Update(model);
-            _repositoryWrapper.Save();
+            await _repositoryWrapper.Spell.Update(model);
+            await _repositoryWrapper.Save();
         }
 
         public async Task Delete(int id)
@@ -41,8 +41,8 @@ namespace BusinessLogic.Services
             var spell = await _repositoryWrapper.Spell
                 .FindByCondition(x => x.SpellId == id);
 
-            _repositoryWrapper.Spell.Delete(spell.First());
-            _repositoryWrapper.Save();
+            await _repositoryWrapper.Spell.Delete(spell.First());
+            await _repositoryWrapper.Save();
         }
     }
 }

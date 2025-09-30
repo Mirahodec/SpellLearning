@@ -39,12 +39,12 @@
             Получение данных по ID
             </summary>
         </member>
-        <member name="M:BackendApi.Controllers.GachaPullController.Add(BackendApi.Contracts.GachaPull.CreateGachaPullRequest)">
+        <member name="M:BackendApi.Controllers.GachaPullController.Add(BackendApi.Contracts.GachPull.CreateGachaPullRequest)">
             <summary>
             Создание данных 
             </summary>
         </member>
-        <member name="M:BackendApi.Controllers.GachaPullController.Update(BackendApi.Contracts.GachaPull.GetGachaPullResponse)">
+        <member name="M:BackendApi.Controllers.GachaPullController.Update(BackendApi.Contracts.GachPull.GetGachaPullResponse)">
             <summary>
             Изменить данные 
             </summary>
@@ -89,12 +89,12 @@
             Получение данных по ID 
             </summary>
         </member>
-        <member name="M:BackendApi.Controllers.SpellController.Add(BackendApi.Contracts.Spell.CreateSpellRequest)">
+        <member name="M:BackendApi.Controllers.SpellController.Add(BackendApi.Contracts.SpellRequest.CreateSpellRequest)">
             <summary>
             Создание данных 
             </summary>
         </member>
-        <member name="M:BackendApi.Controllers.SpellController.Update(BackendApi.Contracts.Spell.GetSpellResponse)">
+        <member name="M:BackendApi.Controllers.SpellController.Update(BackendApi.Contracts.SpellRequest.GetSpellResponse)">
             <summary>
             Изменить данные 
             </summary>
@@ -114,12 +114,12 @@
             Получение данных по ID 
             </summary>
         </member>
-        <member name="M:BackendApi.Controllers.TraceController.Add(BackendApi.Contracts.Trace.CreateTraceRequest)">
+        <member name="M:BackendApi.Controllers.TraceController.Add(BackendApi.Contracts.TraceRequest.CreateTraceRequest)">
             <summary>
             Создание данных 
             </summary>
         </member>
-        <member name="M:BackendApi.Controllers.TraceController.Update(BackendApi.Contracts.Trace.GetTraceResponse)">
+        <member name="M:BackendApi.Controllers.TraceController.Update(BackendApi.Contracts.TraceRequest.GetTraceResponse)">
             <summary>
             Изменить данные 
             </summary>

@@ -27,13 +27,13 @@ namespace BusinessLogic.Services
         public async Task Create(Trace model)
         {
             await _repositoryWrapper.Trace.Create(model);
-            _repositoryWrapper.Save();
+            await _repositoryWrapper.Save();
         }
 
         public async Task Update(Trace model)
         {
-            _repositoryWrapper.Trace.Update(model);
-            _repositoryWrapper.Save();
+            await _repositoryWrapper.Trace.Update(model);
+            await _repositoryWrapper.Save();
         }
 
         public async Task Delete(int id)
@@ -41,8 +41,8 @@ namespace BusinessLogic.Services
             var trace = await _repositoryWrapper.Trace
                 .FindByCondition(x => x.TradeId == id);
 
-            _repositoryWrapper.Trace.Delete(trace.First());
-            _repositoryWrapper.Save();
+            await _repositoryWrapper.Trace.Delete(trace.First());
+            await _repositoryWrapper.Save();
         }
     }
 }

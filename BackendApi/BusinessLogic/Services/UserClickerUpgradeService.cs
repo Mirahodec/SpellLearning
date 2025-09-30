@@ -27,13 +27,13 @@ namespace BusinessLogic.Services
         public async Task Create(UserClickerUpgrade model)
         {
             await _repositoryWrapper.UserClickerUpgrade.Create(model);
-            _repositoryWrapper.Save();
+            await _repositoryWrapper.Save();
         }
 
         public async Task Update(UserClickerUpgrade model)
         {
-            _repositoryWrapper.UserClickerUpgrade.Update(model);
-            _repositoryWrapper.Save();
+            await _repositoryWrapper.UserClickerUpgrade.Update(model);
+            await _repositoryWrapper.Save();
         }
 
         public async Task Delete(int id)
@@ -41,8 +41,8 @@ namespace BusinessLogic.Services
             var userClickerUpgrade = await _repositoryWrapper.UserClickerUpgrade
                 .FindByCondition(x => x.UpgradeId == id);
 
-            _repositoryWrapper.UserClickerUpgrade.Delete(userClickerUpgrade.First());
-            _repositoryWrapper.Save();
+            await _repositoryWrapper.UserClickerUpgrade.Delete(userClickerUpgrade.First());
+            await _repositoryWrapper.Save();
         }
     }
 }

@@ -204,7 +204,10 @@
           "Npgsql.EntityFrameworkCore.PostgreSQL": "6.0.22"
         },
         "runtime": {
-          "DataAccess.dll": {}
+          "DataAccess.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Domain/1.0.0": {
@@ -213,7 +216,10 @@
           "Npgsql.EntityFrameworkCore.PostgreSQL": "6.0.22"
         },
         "runtime": {
-          "Domain.dll": {}
+          "Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

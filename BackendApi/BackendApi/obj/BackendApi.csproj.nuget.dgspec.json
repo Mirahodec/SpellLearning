@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Student\\Desktop\\BackendApi\\BackendApi\\BackendApi.csproj": {}
+    "C:\\Users\\Student\\Desktop\\Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\SpellLearning\\BackendApi\\BackendApi\\BackendApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Student\\Desktop\\BackendApi\\BackendApi\\BackendApi.csproj": {
+    "C:\\Users\\Student\\Desktop\\Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\SpellLearning\\BackendApi\\BackendApi\\BackendApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Student\\Desktop\\BackendApi\\BackendApi\\BackendApi.csproj",
+        "projectUniqueName": "C:\\Users\\Student\\Desktop\\Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\SpellLearning\\BackendApi\\BackendApi\\BackendApi.csproj",
         "projectName": "BackendApi",
-        "projectPath": "C:\\Users\\Student\\Desktop\\BackendApi\\BackendApi\\BackendApi.csproj",
+        "projectPath": "C:\\Users\\Student\\Desktop\\Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\SpellLearning\\BackendApi\\BackendApi\\BackendApi.csproj",
         "packagesPath": "C:\\Users\\Student\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Student\\Desktop\\BackendApi\\BackendApi\\obj\\",
+        "outputPath": "C:\\Users\\Student\\Desktop\\Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\SpellLearning\\BackendApi\\BackendApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,11 +32,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Student\\Desktop\\BackendApi\\BusinessLogic\\BusinessLogic.csproj": {
-                "projectPath": "C:\\Users\\Student\\Desktop\\BackendApi\\BusinessLogic\\BusinessLogic.csproj"
+              "C:\\Users\\Student\\Desktop\\Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\SpellLearning\\BackendApi\\BusinessLogic\\BusinessLogic.csproj": {
+                "projectPath": "C:\\Users\\Student\\Desktop\\Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\SpellLearning\\BackendApi\\BusinessLogic\\BusinessLogic.csproj"
               },
-              "C:\\Users\\Student\\Desktop\\BackendApi\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\Student\\Desktop\\BackendApi\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\Student\\Desktop\\Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\SpellLearning\\BackendApi\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Student\\Desktop\\Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\SpellLearning\\BackendApi\\DataAccess\\DataAccess.csproj"
               }
             }
           }
@@ -89,14 +89,14 @@
         }
       }
     },
-    "C:\\Users\\Student\\Desktop\\BackendApi\\BusinessLogic\\BusinessLogic.csproj": {
+    "C:\\Users\\Student\\Desktop\\Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\SpellLearning\\BackendApi\\BusinessLogic\\BusinessLogic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Student\\Desktop\\BackendApi\\BusinessLogic\\BusinessLogic.csproj",
+        "projectUniqueName": "C:\\Users\\Student\\Desktop\\Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\SpellLearning\\BackendApi\\BusinessLogic\\BusinessLogic.csproj",
         "projectName": "BusinessLogic",
-        "projectPath": "C:\\Users\\Student\\Desktop\\BackendApi\\BusinessLogic\\BusinessLogic.csproj",
+        "projectPath": "C:\\Users\\Student\\Desktop\\Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\SpellLearning\\BackendApi\\BusinessLogic\\BusinessLogic.csproj",
         "packagesPath": "C:\\Users\\Student\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Student\\Desktop\\BackendApi\\BusinessLogic\\obj\\",
+        "outputPath": "C:\\Users\\Student\\Desktop\\Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\SpellLearning\\BackendApi\\BusinessLogic\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -117,11 +117,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Student\\Desktop\\BackendApi\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\Student\\Desktop\\BackendApi\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\Student\\Desktop\\Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\SpellLearning\\BackendApi\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Student\\Desktop\\Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\SpellLearning\\BackendApi\\DataAccess\\DataAccess.csproj"
               },
-              "C:\\Users\\Student\\Desktop\\BackendApi\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Student\\Desktop\\BackendApi\\Domain\\Domain.csproj"
+              "C:\\Users\\Student\\Desktop\\Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\SpellLearning\\BackendApi\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Student\\Desktop\\Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\SpellLearning\\BackendApi\\Domain\\Domain.csproj"
               }
             }
           }
@@ -161,14 +161,14 @@
         }
       }
     },
-    "C:\\Users\\Student\\Desktop\\BackendApi\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\Student\\Desktop\\Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\SpellLearning\\BackendApi\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Student\\Desktop\\BackendApi\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\Student\\Desktop\\Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\SpellLearning\\BackendApi\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\Student\\Desktop\\BackendApi\\DataAccess\\DataAccess.csproj",
+        "projectPath": "C:\\Users\\Student\\Desktop\\Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\SpellLearning\\BackendApi\\DataAccess\\DataAccess.csproj",
         "packagesPath": "C:\\Users\\Student\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Student\\Desktop\\BackendApi\\DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\Student\\Desktop\\Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\SpellLearning\\BackendApi\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -189,8 +189,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Student\\Desktop\\BackendApi\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Student\\Desktop\\BackendApi\\Domain\\Domain.csproj"
+              "C:\\Users\\Student\\Desktop\\Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\SpellLearning\\BackendApi\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Student\\Desktop\\Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\SpellLearning\\BackendApi\\Domain\\Domain.csproj"
               }
             }
           }
@@ -242,14 +242,14 @@
         }
       }
     },
-    "C:\\Users\\Student\\Desktop\\BackendApi\\Domain\\Domain.csproj": {
+    "C:\\Users\\Student\\Desktop\\Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\SpellLearning\\BackendApi\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Student\\Desktop\\BackendApi\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Student\\Desktop\\Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\SpellLearning\\BackendApi\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\Student\\Desktop\\BackendApi\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\Student\\Desktop\\Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\SpellLearning\\BackendApi\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Student\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Student\\Desktop\\BackendApi\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\Student\\Desktop\\Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\SpellLearning\\BackendApi\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "W1kwyMfVFak=",
+  "dgSpecHash": "yWixFcK/S5A=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Student\\Desktop\\BackendApi\\BusinessLogic\\BusinessLogic.csproj",
+  "projectFilePath": "C:\\Users\\Student\\Desktop\\Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\SpellLearning\\BackendApi\\BusinessLogic\\BusinessLogic.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Student\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.22\\microsoft.entityframeworkcore.6.0.22.nupkg.sha512",
     "C:\\Users\\Student\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.22\\microsoft.entityframeworkcore.abstractions.6.0.22.nupkg.sha512",

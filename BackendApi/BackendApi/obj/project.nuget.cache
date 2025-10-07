@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "F3tPjqxhhPs=",
+  "dgSpecHash": "/jWa2zeaSuQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Student\\Desktop\\BackendApi\\BackendApi\\BackendApi.csproj",
+  "projectFilePath": "C:\\Users\\Student\\Desktop\\Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\SpellLearning\\BackendApi\\BackendApi\\BackendApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Student\\.nuget\\packages\\mapster\\6.0.0\\mapster.6.0.0.nupkg.sha512",
     "C:\\Users\\Student\\.nuget\\packages\\microsoft.csharp\\4.3.0\\microsoft.csharp.4.3.0.nupkg.sha512",

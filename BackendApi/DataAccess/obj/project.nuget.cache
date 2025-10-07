@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aXAZuGVwMGo=",
+  "dgSpecHash": "drRnP5gvQO4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Student\\Desktop\\BackendApi\\DataAccess\\DataAccess.csproj",
+  "projectFilePath": "C:\\Users\\Student\\Desktop\\Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\SpellLearning\\BackendApi\\DataAccess\\DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Student\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Student\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.22\\microsoft.entityframeworkcore.6.0.22.nupkg.sha512",

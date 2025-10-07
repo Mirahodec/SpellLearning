@@ -30,7 +30,8 @@
         "tags": [
           "DeckSlot"
         ],
-        "summary": "Создание данных",
+        "summary": "Добавление заклинания в слот колоды",
+        "description": "Пример запроса:\r\n            \r\n    POST /DeckSlots\r\n    {\r\n      \"deckId\": 1,\r\n      \"inventoryId\": 3,\r\n      \"slotNumber\": 2\r\n    }",
         "requestBody": {
           "content": {
             "application/json": {
@@ -148,7 +149,8 @@
         "tags": [
           "GachaPull"
         ],
-        "summary": "Создание данных",
+        "summary": "Запись результата крутки гача",
+        "description": "Пример запроса:\r\n            \r\n    POST /GachaPulls\r\n    {\r\n      \"userId\": 1,\r\n      \"spellId\": 2,\r\n      \"pullDate\": \"2024-01-17T14:30:00\"\r\n    }",
         "requestBody": {
           "content": {
             "application/json": {
@@ -266,7 +268,8 @@
         "tags": [
           "GameSafe"
         ],
-        "summary": "Создание данных",
+        "summary": "Создание/обновление игрового сохранения",
+        "description": "Пример запроса:\r\n            \r\n    POST /GameSaves\r\n    {\r\n      \"userId\": 1,\r\n      \"level\": 25,\r\n      \"highScore\": 125000,\r\n      \"equippedDeckId\": 1,\r\n      \"saveData\": {\r\n        \"прогресс\": 78,\r\n        \"открытые_уровни\": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15],\r\n        \"завершенные_квесты\": [1,2,3,4,5]\r\n      },\r\n      \"lastUpdated\": \"2024-03-20T18:45:00\"\r\n    }",
         "requestBody": {
           "content": {
             "application/json": {
@@ -384,7 +387,8 @@
         "tags": [
           "Spell"
         ],
-        "summary": "Создание данных",
+        "summary": "Создание нового заклинания",
+        "description": "Пример запроса:\r\n            \r\n    POST /Spells\r\n    {\r\n      \"name\": \"Огненный шар\",\r\n      \"description\": \"Базовое огненное заклинание, наносит умеренный урон\",\r\n      \"costCurrency\": \"game\",\r\n      \"rarity\": \"обычная\",\r\n      \"costAmount\": 5,\r\n      \"baseDamage\": 15,\r\n      \"gameEffectCode\": \"damage_fire_single\"\r\n    }",
         "requestBody": {
           "content": {
             "application/json": {
@@ -502,7 +506,8 @@
         "tags": [
           "Trace"
         ],
-        "summary": "Создание данных",
+        "summary": "Создание предложения обмена",
+        "description": "Пример запроса:\r\n            \r\n    POST /Traces\r\n    {\r\n      \"userIdOffer\": 1,\r\n      \"userIdReceive\": 2,\r\n      \"inventoryIdOffer\": 5,\r\n      \"inventoryIdWant\": 11,\r\n      \"status\": \"ожидание\",\r\n      \"createdAt\": \"2024-02-05T14:30:00\"\r\n    }",
         "requestBody": {
           "content": {
             "application/json": {
@@ -620,8 +625,8 @@
         "tags": [
           "User"
         ],
-        "summary": "Создание данных",
-        "description": "Пример запроса:\r\n            \r\n    POST /Todo\r\n    {\r\n      \"userId\": 6,\r\n      \"username\": \"SilverArrow\",\r\n      \"email\": \"olga.vasilieva@email.com\",\r\n      \"passwordHash\": \"$2b$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi\",\r\n      \"createdAt\": \"2024-02-22T13:50:00\",\r\n      \"lastLogin\": \"2024-03-20T14:35:00\",\r\n      \"currencyClick\": 4800,\r\n      \"currencyGame\": 1200,\r\n    }",
+        "summary": "Создание нового пользователя",
+        "description": "Пример запроса:\r\n            \r\n    POST /Users\r\n    {\r\n      \"username\": \"SilverArrow\",\r\n      \"email\": \"olga.vasilieva@email.com\",\r\n      \"passwordHash\": \"$2b$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi\",\r\n      \"createdAt\": \"2024-02-22T13:50:00\",\r\n      \"lastLogin\": \"2024-03-20T14:35:00\",\r\n      \"currencyClick\": 4800,\r\n      \"currencyGame\": 1200\r\n    }",
         "requestBody": {
           "content": {
             "application/json": {
@@ -739,7 +744,8 @@
         "tags": [
           "UserClickerUpgrade"
         ],
-        "summary": "Создание данных",
+        "summary": "Покупка улучшения кликера пользователем",
+        "description": "Пример запроса:\r\n            \r\n    POST /UserClickerUpgrades\r\n    {\r\n      \"userId\": 1,\r\n      \"upgradeId\": 3,\r\n      \"quantity\": 1,\r\n      \"purchasedLast\": \"2024-02-10T12:30:00\"\r\n    }",
         "requestBody": {
           "content": {
             "application/json": {
@@ -857,7 +863,8 @@
         "tags": [
           "UserDeck"
         ],
-        "summary": "Создание данных",
+        "summary": "Создание новой колоды",
+        "description": "Пример запроса:\r\n            \r\n    POST /UserDecks\r\n    {\r\n      \"userId\": 1,\r\n      \"deckName\": \"Основная боевая\"\r\n    }",
         "requestBody": {
           "content": {
             "application/json": {
@@ -975,7 +982,8 @@
         "tags": [
           "UserInventory"
         ],
-        "summary": "Создание данных",
+        "summary": "Добавление заклинания в инвентарь пользователя",
+        "description": "Пример запроса:\r\n            \r\n    POST /UserInventory\r\n    {\r\n      \"userId\": 1,\r\n      \"spellId\": 3,\r\n      \"obtainedAt\": \"2024-01-20T09:15:00\"\r\n    }",
         "requestBody": {
           "content": {
             "application/json": {
@@ -1093,7 +1101,8 @@
         "tags": [
           "UserUpgrade"
         ],
-        "summary": "Создание данных",
+        "summary": "Создание нового улучшения",
+        "description": "Пример запроса:\r\n            \r\n    POST /UserUpgrades\r\n    {\r\n      \"name\": \"Базовый кликер\",\r\n      \"description\": \"Увеличивает доход за клик на 1\",\r\n      \"costClick\": 50,\r\n      \"powerMultiplier\": 1.1\r\n    }",
         "requestBody": {
           "content": {
             "application/json": {

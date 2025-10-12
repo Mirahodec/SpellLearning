@@ -1,9 +1,9 @@
-using System.Text.Json;
 using BackendApi.Contracts.GameSafe;
 using Domain.Interfaces;
 using Domain.Models;
 using Mapster;
 using Microsoft.AspNetCore.Mvc;
+using System.Text.Json;
 
 namespace BackendApi.Controllers
 {
@@ -23,7 +23,7 @@ namespace BackendApi.Controllers
         public async Task<IActionResult> GetAll()
         {
             var result = await _GameSafeService.GetAll();
-            var response = result.Adapt < List<GetGameSafeResponse>>();
+            var response = result.Adapt<List<GetGameSafeResponse>>();
 
             return Ok(response);
         }
@@ -34,8 +34,8 @@ namespace BackendApi.Controllers
         public async Task<IActionResult> GetById(int id)
         {
             var result = await _GameSafeService.GetById(id);
-            var response =  result.Adapt<GetGameSafeResponse>();
-            
+            var response = result.Adapt<GetGameSafeResponse>();
+
             return Ok(response);
         }
         /// <summary>
@@ -89,4 +89,3 @@ namespace BackendApi.Controllers
         }
     }
 }
-

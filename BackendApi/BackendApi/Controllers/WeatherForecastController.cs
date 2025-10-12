@@ -1,5 +1,5 @@
-using System;
 using Microsoft.AspNetCore.Mvc;
+using System;
 
 namespace BackendApi.Controllers
 {
@@ -9,8 +9,17 @@ namespace BackendApi.Controllers
     {
         private static List<string> Summaries = new()
         {
-        "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-    };
+            "Freezing",
+            "Bracing",
+            "Chilly",
+            "Cool",
+            "Mild",
+            "Warm",
+            "Balmy",
+            "Hot",
+            "Sweltering",
+            "Scorching"
+        };
 
         private readonly ILogger<WeatherForecastController> _logger;
 
@@ -23,11 +32,11 @@ namespace BackendApi.Controllers
         public IActionResult GetAll(int? sortstrage)
         {
             var a = Summaries;
-            if (sortstrage == 1)  a = Summaries.OrderBy(x =>x).ToList();
+            if (sortstrage == 1) a = Summaries.OrderBy(x => x).ToList();
             if (sortstrage == -1) a = Summaries.OrderByDescending(x => x).ToList();
             if (sortstrage < -1 || sortstrage > 1)
             {
-                return BadRequest("Такой индекс неверный!!!!");
+                return BadRequest("пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ!!!!");
             }
 
             return Ok(a);
@@ -38,16 +47,16 @@ namespace BackendApi.Controllers
         {
             if (index < 0 || index >= Summaries.Count)
             {
-                return BadRequest("Такой индекс неверный!!!!");
+                return BadRequest("пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ!!!!");
             }
-             
+
             return Ok(Summaries[index]);
         }
         [HttpGet("find-by-name")]
         public int GetFind(string name)
         {
 
-            return Summaries.Count(name1 => name1 ==name);
+            return Summaries.Count(name1 => name1 == name);
         }
 
         [HttpPost("Add")]
@@ -57,11 +66,11 @@ namespace BackendApi.Controllers
             return Ok();
         }
         [HttpPut("Update")]
-        public IActionResult Update(int index,string name) 
+        public IActionResult Update(int index, string name)
         {
             if (index < 0 || index >= Summaries.Count)
             {
-                return BadRequest("Такой индекс неверный!!!!");
+                return BadRequest("пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ!!!!");
             }
             Summaries[index] = name;
             return Ok();
@@ -69,9 +78,9 @@ namespace BackendApi.Controllers
         [HttpDelete("Delete")]
         public IActionResult Delete(int index)
         {
-             if (index < 0 || index >= Summaries.Count)
+            if (index < 0 || index >= Summaries.Count)
             {
-                return BadRequest("Такой индекс неверный!!!!");
+                return BadRequest("пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ!!!!");
             }
             Summaries.RemoveAt(index);
             return Ok();

@@ -4,7 +4,7 @@ namespace Domain.Interfaces
 {
     public interface IRepositoryWrapper
     {
-        IUserRepository User {  get; }
+        IUserRepository User { get; }
         IUserUpgradeRepository UserUpgrade { get; }
         IUserClickerUpgradeRepository UserClickerUpgrade { get; }
         IUserDeckRepository UserDeck { get; }

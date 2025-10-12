@@ -1,7 +1,7 @@
-﻿using Domain.Models;
-using System.Linq.Expressions;
-using Domain.Interfaces;
+﻿using Domain.Interfaces;
+using Domain.Models;
 using Microsoft.EntityFrameworkCore;
+using System.Linq.Expressions;
 
 namespace DataAccess.Repositories
 {

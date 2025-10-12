@@ -1,9 +1,9 @@
-﻿using System.Text.Json;
-using BackendApi.Contracts.User;
+﻿using BackendApi.Contracts.User;
 using Domain.Interfaces;
 using Domain.Models;
 using Mapster;
 using Microsoft.AspNetCore.Mvc;
+using System.Text.Json;
 
 namespace BackendApi.Controllers
 {
@@ -23,7 +23,7 @@ namespace BackendApi.Controllers
         public async Task<IActionResult> GetAll()
         {
             var result = await _userService.GetAll();
-            var response = result.Adapt < List<GetUserResponse>>();
+            var response = result.Adapt<List<GetUserResponse>>();
 
             return Ok(response);
         }
@@ -34,8 +34,8 @@ namespace BackendApi.Controllers
         public async Task<IActionResult> GetById(int id)
         {
             var result = await _userService.GetById(id);
-            var response =  result.Adapt<GetUserResponse>();
-            
+            var response = result.Adapt<GetUserResponse>();
+
             return Ok(response);
         }
         /// <summary>

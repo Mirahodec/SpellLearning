@@ -1,5 +1,5 @@
 namespace BackendApi.Contracts.UserDeck
-{ 
+{
     public class GetUserDeckResponse
     {
         public int DeckId { get; set; }

@@ -1,9 +1,9 @@
-using System.Text.Json;
 using BackendApi.Contracts.UserUpgrade;
 using Domain.Interfaces;
 using Domain.Models;
 using Mapster;
 using Microsoft.AspNetCore.Mvc;
+using System.Text.Json;
 
 namespace BackendApi.Controllers
 {
@@ -23,7 +23,7 @@ namespace BackendApi.Controllers
         public async Task<IActionResult> GetAll()
         {
             var result = await _UserUpgradeService.GetAll();
-            var response = result.Adapt < List<GetUserUpgradeResponse>>();
+            var response = result.Adapt<List<GetUserUpgradeResponse>>();
 
             return Ok(response);
         }
@@ -34,8 +34,8 @@ namespace BackendApi.Controllers
         public async Task<IActionResult> GetById(int id)
         {
             var result = await _UserUpgradeService.GetById(id);
-            var response =  result.Adapt<GetUserUpgradeResponse>();
-            
+            var response = result.Adapt<GetUserUpgradeResponse>();
+
             return Ok(response);
         }
         /// <summary>
@@ -83,4 +83,3 @@ namespace BackendApi.Controllers
         }
     }
 }
-

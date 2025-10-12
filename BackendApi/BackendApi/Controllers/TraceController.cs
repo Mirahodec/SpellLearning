@@ -1,9 +1,9 @@
-using System.Text.Json;
 using BackendApi.Contracts.TraceRequest;
 using Domain.Interfaces;
 using Domain.Models;
 using Mapster;
 using Microsoft.AspNetCore.Mvc;
+using System.Text.Json;
 
 namespace BackendApi.Controllers
 {
@@ -23,7 +23,7 @@ namespace BackendApi.Controllers
         public async Task<IActionResult> GetAll()
         {
             var result = await _TraceService.GetAll();
-            var response = result.Adapt < List<GetTraceResponse>>();
+            var response = result.Adapt<List<GetTraceResponse>>();
 
             return Ok(response);
         }
@@ -34,8 +34,8 @@ namespace BackendApi.Controllers
         public async Task<IActionResult> GetById(int id)
         {
             var result = await _TraceService.GetById(id);
-            var response =  result.Adapt<GetTraceResponse>();
-            
+            var response = result.Adapt<GetTraceResponse>();
+
             return Ok(response);
         }
         /// <summary>
@@ -85,4 +85,3 @@ namespace BackendApi.Controllers
         }
     }
 }
-

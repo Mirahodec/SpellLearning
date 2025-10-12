@@ -1,9 +1,9 @@
-using System.Text.Json;
 using BackendApi.Contracts.GachPull;
 using Domain.Interfaces;
 using Domain.Models;
 using Mapster;
 using Microsoft.AspNetCore.Mvc;
+using System.Text.Json;
 
 namespace BackendApi.Controllers
 {
@@ -23,7 +23,7 @@ namespace BackendApi.Controllers
         public async Task<IActionResult> GetAll()
         {
             var result = await _GachaPullService.GetAll();
-            var response = result.Adapt < List<GetGachaPullResponse>>();
+            var response = result.Adapt<List<GetGachaPullResponse>>();
 
             return Ok(response);
         }
@@ -34,8 +34,8 @@ namespace BackendApi.Controllers
         public async Task<IActionResult> GetById(int id)
         {
             var result = await _GachaPullService.GetById(id);
-            var response =  result.Adapt<GetGachaPullResponse>();
-            
+            var response = result.Adapt<GetGachaPullResponse>();
+
             return Ok(response);
         }
         /// <summary>
@@ -82,4 +82,3 @@ namespace BackendApi.Controllers
         }
     }
 }
-

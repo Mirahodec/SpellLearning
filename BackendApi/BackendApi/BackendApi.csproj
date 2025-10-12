@@ -22,9 +22,6 @@
     <ProjectReference Include="..\DataAccess\DataAccess.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <EditorConfigFiles Remove="C:\Users\Student\Desktop\Tatymov 25IS-11D\mini-game Tatymov 25IS-11D\mini-game Tatymov 25IS-11D\SpellLearning\BackendApi\BackendApi\.editorconfig" />
-  </ItemGroup>
 
 
 </Project>

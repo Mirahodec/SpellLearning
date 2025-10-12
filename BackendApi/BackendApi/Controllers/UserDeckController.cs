@@ -1,9 +1,9 @@
-using System.Text.Json;
 using BackendApi.Contracts.UserDeck;
 using Domain.Interfaces;
 using Domain.Models;
 using Mapster;
 using Microsoft.AspNetCore.Mvc;
+using System.Text.Json;
 
 namespace BackendApi.Controllers
 {
@@ -23,7 +23,7 @@ namespace BackendApi.Controllers
         public async Task<IActionResult> GetAll()
         {
             var result = await _UserDeckService.GetAll();
-            var response = result.Adapt < List<GetUserDeckResponse>>();
+            var response = result.Adapt<List<GetUserDeckResponse>>();
 
             return Ok(response);
         }
@@ -34,8 +34,8 @@ namespace BackendApi.Controllers
         public async Task<IActionResult> GetById(int id)
         {
             var result = await _UserDeckService.GetById(id);
-            var response =  result.Adapt<GetUserDeckResponse>();
-            
+            var response = result.Adapt<GetUserDeckResponse>();
+
             return Ok(response);
         }
         /// <summary>
@@ -81,4 +81,3 @@ namespace BackendApi.Controllers
         }
     }
 }
-

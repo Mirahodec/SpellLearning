@@ -1,9 +1,9 @@
-using System.Text.Json;
 using BackendApi.Contracts.UserInventory;
 using Domain.Interfaces;
 using Domain.Models;
 using Mapster;
 using Microsoft.AspNetCore.Mvc;
+using System.Text.Json;
 
 namespace BackendApi.Controllers
 {
@@ -23,7 +23,7 @@ namespace BackendApi.Controllers
         public async Task<IActionResult> GetAll()
         {
             var result = await _UserInventoryService.GetAll();
-            var response = result.Adapt < List<GetUserInventoryResponse>>();
+            var response = result.Adapt<List<GetUserInventoryResponse>>();
 
             return Ok(response);
         }
@@ -34,8 +34,8 @@ namespace BackendApi.Controllers
         public async Task<IActionResult> GetById(int id)
         {
             var result = await _UserInventoryService.GetById(id);
-            var response =  result.Adapt<GetUserInventoryResponse>();
-            
+            var response = result.Adapt<GetUserInventoryResponse>();
+
             return Ok(response);
         }
         /// <summary>
@@ -82,4 +82,3 @@ namespace BackendApi.Controllers
         }
     }
 }
-

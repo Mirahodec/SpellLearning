@@ -1,6 +1,6 @@
-﻿using Domain.Models;
+﻿using DataAccess.Repositories;
 using Domain.Interfaces;
-using DataAccess.Repositories;
+using Domain.Models;
 
 namespace DataAccess.Wrapper
 {
@@ -21,9 +21,10 @@ namespace DataAccess.Wrapper
 
         public IUserRepository User
         {
-            get 
+            get
             {
-                if (_user == null) {
+                if (_user == null)
+                {
                     _user = new UserRepository(_repoContext);
                 }
                 return _user;

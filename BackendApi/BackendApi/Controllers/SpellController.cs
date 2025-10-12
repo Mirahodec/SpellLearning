@@ -1,9 +1,9 @@
-using System.Text.Json;
 using BackendApi.Contracts.SpellRequest;
 using Domain.Interfaces;
 using Domain.Models;
 using Mapster;
 using Microsoft.AspNetCore.Mvc;
+using System.Text.Json;
 
 namespace BackendApi.Controllers
 {
@@ -23,7 +23,7 @@ namespace BackendApi.Controllers
         public async Task<IActionResult> GetAll()
         {
             var result = await _SpellService.GetAll();
-            var response = result.Adapt < List<GetSpellResponse>>();
+            var response = result.Adapt<List<GetSpellResponse>>();
 
             return Ok(response);
         }
@@ -34,8 +34,8 @@ namespace BackendApi.Controllers
         public async Task<IActionResult> GetById(int id)
         {
             var result = await _SpellService.GetById(id);
-            var response =  result.Adapt<GetSpellResponse>();
-            
+            var response = result.Adapt<GetSpellResponse>();
+
             return Ok(response);
         }
         /// <summary>
@@ -86,4 +86,3 @@ namespace BackendApi.Controllers
         }
     }
 }
-

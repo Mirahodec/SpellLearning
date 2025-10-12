@@ -14,16 +14,16 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v4
 
-    - name: Setup .NET
+    - name: Setup .NET 6.0
       uses: actions/setup-dotnet@v4
       with:
         dotnet-version: '6.0.x'
 
     - name: Restore dependencies
-      run: dotnet restore
+      run: dotnet restore ./BackendApi/BackendApi.sln
 
     - name: Build
-      run: dotnet build --no-restore --configuration Release
+      run: dotnet build ./BackendApi/BackendApi.sln --no-restore --configuration Release
 
     - name: Run unit tests
-      run: dotnet test --no-build --configuration Release --verbosity normal
+      run: dotnet test ./BackendApi/BackendApi.sln --no-build --configuration Release --verbosity normal

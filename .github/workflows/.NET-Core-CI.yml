@@ -2,23 +2,28 @@ name: .NET Core CI
 
 on:
   push:
-    branches:
-      - main
+    branches: [ main ]
   pull_request:
-    branches:
-      - main
+    branches: [ main ]
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
-    - name: Setup .NET Core
-      uses: actions/setup-dotnet@v1
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Setup .NET 6.0
+      uses: actions/setup-dotnet@v4
       with:
-        dotnet-version: '3.1'
+        dotnet-version: '6.0.x'
+
+    - name: Restore dependencies
+      run: dotnet restore ./BackendApi/BackendApi.sln
+
     - name: Build
-      run: dotnet build --configuration Release
+      run: dotnet build ./BackendApi/BackendApi.sln --configuration Release --no-restore
+
     - name: Test
-      run: dotnet test --configuration Release --no-build
+      run: dotnet test ./BackendApi/BackendApi.sln --configuration Release --no-build

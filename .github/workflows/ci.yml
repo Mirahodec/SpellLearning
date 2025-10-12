@@ -2,11 +2,9 @@ name: Build and Code Format Check
 
 on:
   push:
-    branches:
-      - '**'  # все ветки
+    branches: [ main ]
   pull_request:
-    branches:
-      - '**'  # также проверять при PR в любую ветку
+    branches: [ main ]
 
 jobs:
   build-and-format:
@@ -19,13 +17,13 @@ jobs:
       - name: Setup .NET SDK
         uses: actions/setup-dotnet@v4
         with:
-          dotnet-version: '8.0.x'  # замените на версию вашего проекта (6.0.x, 7.0.x и т.д.)
+          dotnet-version: '6.0.x'
 
       - name: Restore dependencies
-        run: dotnet restore
+        run: dotnet restore ./BackendApi/BackendApi.sln
 
       - name: Check code formatting
-        run: dotnet format --verify-no-changes --verbosity normal
+        run: dotnet format ./BackendApi/BackendApi.sln --verify-no-changes --verbosity normal
 
       - name: Build project
-        run: dotnet build --configuration Release --no-restore
+        run: dotnet build ./BackendApi/BackendApi.sln --configuration Release --no-restore

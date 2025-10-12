@@ -5,22 +5,23 @@ on:
     paths:
       - "**.cs"
       - ".editorconfig"
+  pull_request:
+    paths:
+      - "**.cs"
+      - ".editorconfig"
 
 jobs:
   check-format:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
 
     steps:
-      - name: Setup .NET Core
-        uses: actions/setup-dotnet@v1
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup .NET 6.0
+        uses: actions/setup-dotnet@v4
         with:
           dotnet-version: '6.0.x'
 
-      - name: Install dotnet-format tool
-        run: dotnet tool install -g dotnet-format
-
-      - name: Check out code
-        uses: actions/checkout@v2
-
-      - name: Run dotnet format
-        run: dotnet-format --folder --check --verbosity diagnostic
+      - name: Check formatting
+        run: dotnet format ./BackendApi/BackendApi.sln --verify-no-changes --verbosity diagnostic

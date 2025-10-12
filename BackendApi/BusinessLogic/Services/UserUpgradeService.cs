@@ -26,6 +26,15 @@ namespace BusinessLogic.Services
 
         public async Task Create(UserUpgrade model)
         {
+            if (model == null)
+                throw new ArgumentNullException(nameof(model));
+
+            if (string.IsNullOrWhiteSpace(model.Name))
+                throw new ArgumentException("Name is required.", nameof(model.Name));
+
+            if (model.CostClick <= 0)
+                throw new ArgumentException("CostClick must be greater than 0.", nameof(model.CostClick));
+
             await _repositoryWrapper.UserUpgrade.Create(model);
             await _repositoryWrapper.Save();
         }

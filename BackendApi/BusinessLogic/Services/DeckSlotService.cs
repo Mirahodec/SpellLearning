@@ -26,6 +26,18 @@ namespace BusinessLogic.Services
 
         public async Task Create(DeckSlot model)
         {
+            if (model == null)
+                throw new ArgumentNullException(nameof(model));
+
+            if (model.DeckId <= 0)
+                throw new ArgumentException("DeckId must be greater than 0.", nameof(model.DeckId));
+
+            if (model.InventoryId <= 0)
+                throw new ArgumentException("InventoryId must be greater than 0.", nameof(model.InventoryId));
+
+            if (model.SlotNumber <= 0)
+                throw new ArgumentException("SlotNumber must be greater than 0.", nameof(model.SlotNumber));
+
             await _repositoryWrapper.DeckSlot.Create(model);
             await _repositoryWrapper.Save();
         }

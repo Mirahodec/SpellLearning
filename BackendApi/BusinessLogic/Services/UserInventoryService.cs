@@ -26,6 +26,15 @@ namespace BusinessLogic.Services
 
         public async Task Create(UserInventory model)
         {
+            if (model == null)
+                throw new ArgumentNullException(nameof(model));
+
+            if (model.UserId <= 0)
+                throw new ArgumentException("UserId must be greater than 0.", nameof(model.UserId));
+
+            if (model.SpellId <= 0)
+                throw new ArgumentException("SpellId must be greater than 0.", nameof(model.SpellId));
+
             await _repositoryWrapper.UserInventory.Create(model);
             await _repositoryWrapper.Save();
         }

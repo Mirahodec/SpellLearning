@@ -26,6 +26,15 @@ namespace BusinessLogic.Services
 
         public async Task Create(UserDeck model)
         {
+            if (model == null)
+                throw new ArgumentNullException(nameof(model));
+
+            if (model.UserId <= 0)
+                throw new ArgumentException("UserId must be greater than 0.", nameof(model.UserId));
+
+            if (string.IsNullOrWhiteSpace(model.DeckName))
+                throw new ArgumentException("DeckName is required.", nameof(model.DeckName));
+
             await _repositoryWrapper.UserDeck.Create(model);
             await _repositoryWrapper.Save();
         }

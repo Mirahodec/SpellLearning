@@ -26,6 +26,15 @@ namespace BusinessLogic.Services
 
         public async Task Create(UserClickerUpgrade model)
         {
+            if (model == null)
+                throw new ArgumentNullException(nameof(model));
+
+            if (model.UserId <= 0)
+                throw new ArgumentException("UserId must be greater than 0.", nameof(model.UserId));
+
+            if (model.UpgradeId <= 0)
+                throw new ArgumentException("UpgradeId must be greater than 0.", nameof(model.UpgradeId));
+
             await _repositoryWrapper.UserClickerUpgrade.Create(model);
             await _repositoryWrapper.Save();
         }

@@ -26,6 +26,18 @@ namespace BusinessLogic.Services
 
         public async Task Create(Spell model)
         {
+            if (model == null)
+                throw new ArgumentNullException(nameof(model));
+
+            if (string.IsNullOrWhiteSpace(model.Name))
+                throw new ArgumentException("Name is required.", nameof(model.Name));
+
+            if (string.IsNullOrWhiteSpace(model.CostCurrency))
+                throw new ArgumentException("CostCurrency is required.", nameof(model.CostCurrency));
+
+            if (model.CostAmount is null or <= 0)
+                throw new ArgumentException("CostAmount must be greater than 0.", nameof(model.CostAmount));
+
             await _repositoryWrapper.Spell.Create(model);
             await _repositoryWrapper.Save();
         }

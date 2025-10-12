@@ -26,6 +26,12 @@ namespace BusinessLogic.Services
 
         public async Task Create(GameSafe model)
         {
+            if (model == null)
+                throw new ArgumentNullException(nameof(model));
+
+            if (model.UserId <= 0)
+                throw new ArgumentException("UserId must be greater than 0.", nameof(model.UserId));
+
             await _repositoryWrapper.GameSafe.Create(model);
             await _repositoryWrapper.Save();
         }

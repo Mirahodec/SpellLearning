@@ -26,6 +26,15 @@ namespace BusinessLogic.Services
 
         public async Task Create(GachaPull model)
         {
+            if (model == null)
+                throw new ArgumentNullException(nameof(model));
+
+            if (model.SpellId <= 0)
+                throw new ArgumentException("SpellId must be greater than 0.", nameof(model.SpellId));
+
+            if (model.UserId <= 0)
+                throw new ArgumentException("UserId must be greater than 0.", nameof(model.UserId));
+
             await _repositoryWrapper.GachaPull.Create(model);
             await _repositoryWrapper.Save();
         }

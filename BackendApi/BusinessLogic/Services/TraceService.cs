@@ -26,6 +26,21 @@ namespace BusinessLogic.Services
 
         public async Task Create(Trace model)
         {
+            if (model == null)
+                throw new ArgumentNullException(nameof(model));
+
+            if (model.UserIdOffer <= 0)
+                throw new ArgumentException("UserIdOffer must be greater than 0.", nameof(model.UserIdOffer));
+
+            if (model.UserIdReceive <= 0)
+                throw new ArgumentException("UserIdReceive must be greater than 0.", nameof(model.UserIdReceive));
+
+            if (model.InventoryIdOffer <= 0)
+                throw new ArgumentException("InventoryIdOffer must be greater than 0.", nameof(model.InventoryIdOffer));
+
+            if (model.InventoryIdWant <= 0)
+                throw new ArgumentException("InventoryIdWant must be greater than 0.", nameof(model.InventoryIdWant));
+
             await _repositoryWrapper.Trace.Create(model);
             await _repositoryWrapper.Save();
         }

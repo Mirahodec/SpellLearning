@@ -52,7 +52,7 @@ namespace BackendApi
                         Url = new Uri("https://example.com/license")
                     }
                 });
-                var xmlFilename = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
+                string xmlFilename = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
                 options.IncludeXmlComments(Path.Combine(AppContext.BaseDirectory, xmlFilename));
             });
 

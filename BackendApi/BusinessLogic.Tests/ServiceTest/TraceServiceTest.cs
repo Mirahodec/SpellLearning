@@ -1,9 +1,9 @@
-﻿using Moq;
-using Xunit;
-using BusinessLogic.Services;
+﻿using BusinessLogic.Services;
+using DataAccess.Repositories;
 using Domain.Interfaces;
 using Domain.Models;
-using DataAccess.Repositories;
+using Moq;
+using Xunit;
 
 namespace BusinessLogic.Tests
 {

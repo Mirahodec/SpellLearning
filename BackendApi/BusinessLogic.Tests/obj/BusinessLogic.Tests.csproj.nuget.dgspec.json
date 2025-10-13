@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\TenVladislav\\Documents\\GitHub\\SpellLearning\\BackendApi\\BusinessLogic.Tests\\BusinessLogic.Tests.csproj": {}
+    "C:\\Users\\Student\\Desktop\\Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\SpellLearning\\BackendApi\\BusinessLogic.Tests\\BusinessLogic.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\TenVladislav\\Documents\\GitHub\\SpellLearning\\BackendApi\\BusinessLogic.Tests\\BusinessLogic.Tests.csproj": {
+    "C:\\Users\\Student\\Desktop\\Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\SpellLearning\\BackendApi\\BusinessLogic.Tests\\BusinessLogic.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TenVladislav\\Documents\\GitHub\\SpellLearning\\BackendApi\\BusinessLogic.Tests\\BusinessLogic.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\Student\\Desktop\\Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\SpellLearning\\BackendApi\\BusinessLogic.Tests\\BusinessLogic.Tests.csproj",
         "projectName": "BusinessLogic.Tests",
-        "projectPath": "C:\\Users\\TenVladislav\\Documents\\GitHub\\SpellLearning\\BackendApi\\BusinessLogic.Tests\\BusinessLogic.Tests.csproj",
-        "packagesPath": "C:\\Users\\TenVladislav\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TenVladislav\\Documents\\GitHub\\SpellLearning\\BackendApi\\BusinessLogic.Tests\\obj\\",
+        "projectPath": "C:\\Users\\Student\\Desktop\\Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\SpellLearning\\BackendApi\\BusinessLogic.Tests\\BusinessLogic.Tests.csproj",
+        "packagesPath": "C:\\Users\\Student\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Student\\Desktop\\Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\SpellLearning\\BackendApi\\BusinessLogic.Tests\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\TenVladislav\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Student\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +32,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\TenVladislav\\Documents\\GitHub\\SpellLearning\\BackendApi\\BusinessLogic\\BusinessLogic.csproj": {
-                "projectPath": "C:\\Users\\TenVladislav\\Documents\\GitHub\\SpellLearning\\BackendApi\\BusinessLogic\\BusinessLogic.csproj"
+              "C:\\Users\\Student\\Desktop\\Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\SpellLearning\\BackendApi\\BusinessLogic\\BusinessLogic.csproj": {
+                "projectPath": "C:\\Users\\Student\\Desktop\\Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\SpellLearning\\BackendApi\\BusinessLogic\\BusinessLogic.csproj"
               }
             }
           }
@@ -38,7 +42,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net6.0": {
@@ -85,21 +95,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\TenVladislav\\Documents\\GitHub\\SpellLearning\\BackendApi\\BusinessLogic\\BusinessLogic.csproj": {
+    "C:\\Users\\Student\\Desktop\\Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\SpellLearning\\BackendApi\\BusinessLogic\\BusinessLogic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TenVladislav\\Documents\\GitHub\\SpellLearning\\BackendApi\\BusinessLogic\\BusinessLogic.csproj",
+        "projectUniqueName": "C:\\Users\\Student\\Desktop\\Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\SpellLearning\\BackendApi\\BusinessLogic\\BusinessLogic.csproj",
         "projectName": "BusinessLogic",
-        "projectPath": "C:\\Users\\TenVladislav\\Documents\\GitHub\\SpellLearning\\BackendApi\\BusinessLogic\\BusinessLogic.csproj",
-        "packagesPath": "C:\\Users\\TenVladislav\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TenVladislav\\Documents\\GitHub\\SpellLearning\\BackendApi\\BusinessLogic\\obj\\",
+        "projectPath": "C:\\Users\\Student\\Desktop\\Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\SpellLearning\\BackendApi\\BusinessLogic\\BusinessLogic.csproj",
+        "packagesPath": "C:\\Users\\Student\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Student\\Desktop\\Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\SpellLearning\\BackendApi\\BusinessLogic\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\TenVladislav\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Student\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -113,11 +127,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\TenVladislav\\Documents\\GitHub\\SpellLearning\\BackendApi\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\TenVladislav\\Documents\\GitHub\\SpellLearning\\BackendApi\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\Student\\Desktop\\Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\SpellLearning\\BackendApi\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Student\\Desktop\\Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\SpellLearning\\BackendApi\\DataAccess\\DataAccess.csproj"
               },
-              "C:\\Users\\TenVladislav\\Documents\\GitHub\\SpellLearning\\BackendApi\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\TenVladislav\\Documents\\GitHub\\SpellLearning\\BackendApi\\Domain\\Domain.csproj"
+              "C:\\Users\\Student\\Desktop\\Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\SpellLearning\\BackendApi\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Student\\Desktop\\Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\SpellLearning\\BackendApi\\Domain\\Domain.csproj"
               }
             }
           }
@@ -126,7 +140,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net6.0": {
@@ -147,21 +167,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\TenVladislav\\Documents\\GitHub\\SpellLearning\\BackendApi\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\Student\\Desktop\\Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\SpellLearning\\BackendApi\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TenVladislav\\Documents\\GitHub\\SpellLearning\\BackendApi\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\Student\\Desktop\\Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\SpellLearning\\BackendApi\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\TenVladislav\\Documents\\GitHub\\SpellLearning\\BackendApi\\DataAccess\\DataAccess.csproj",
-        "packagesPath": "C:\\Users\\TenVladislav\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TenVladislav\\Documents\\GitHub\\SpellLearning\\BackendApi\\DataAccess\\obj\\",
+        "projectPath": "C:\\Users\\Student\\Desktop\\Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\SpellLearning\\BackendApi\\DataAccess\\DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Student\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Student\\Desktop\\Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\SpellLearning\\BackendApi\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\TenVladislav\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Student\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -175,8 +199,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\TenVladislav\\Documents\\GitHub\\SpellLearning\\BackendApi\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\TenVladislav\\Documents\\GitHub\\SpellLearning\\BackendApi\\Domain\\Domain.csproj"
+              "C:\\Users\\Student\\Desktop\\Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\SpellLearning\\BackendApi\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Student\\Desktop\\Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\SpellLearning\\BackendApi\\Domain\\Domain.csproj"
               }
             }
           }
@@ -185,7 +209,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net6.0": {
@@ -218,21 +248,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\TenVladislav\\Documents\\GitHub\\SpellLearning\\BackendApi\\Domain\\Domain.csproj": {
+    "C:\\Users\\Student\\Desktop\\Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\SpellLearning\\BackendApi\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TenVladislav\\Documents\\GitHub\\SpellLearning\\BackendApi\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Student\\Desktop\\Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\SpellLearning\\BackendApi\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\TenVladislav\\Documents\\GitHub\\SpellLearning\\BackendApi\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\TenVladislav\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TenVladislav\\Documents\\GitHub\\SpellLearning\\BackendApi\\Domain\\obj\\",
+        "projectPath": "C:\\Users\\Student\\Desktop\\Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\SpellLearning\\BackendApi\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\Student\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Student\\Desktop\\Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\mini-game Tatymov 25IS-11D\\SpellLearning\\BackendApi\\Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\TenVladislav\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Student\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -252,7 +286,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net6.0": {
@@ -289,7 +329,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     }

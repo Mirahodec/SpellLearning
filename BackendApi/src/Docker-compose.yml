@@ -1,0 +1,30 @@
+version: '3.4'
+
+services:
+  spelllearning-api:
+    image: ${DOCKER_REGISTRY-}spelllearning-api
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    environment:
+      - ASPNETCORE_URLS=http://+:5000
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionString=Host=db;Port=5432;Database=SpellLearning;Username=postgres;Password=1
+    ports:
+      - "5000:5000"
+    depends_on:
+      - db
+
+  db:
+    image: postgres:16
+    environment:
+      - POSTGRES_DB=SpellLearning
+      - POSTGRES_USER=posgres
+      - POSTGRES_PASSWORD=1
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:

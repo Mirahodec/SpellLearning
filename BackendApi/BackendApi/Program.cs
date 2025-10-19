@@ -18,7 +18,7 @@ namespace BackendApi
 
             builder.Services.AddDbContext<SpellLearningContext>(
                     options => options.UseNpgsql(
-                        "Server=localhost;Database=postgres;User Id=postgres;Password=123456;"));
+                        "Server=localhost;Database=SpellLearning;User Id=postgres;Password=1;"));
 
             builder.Services.AddScoped<IRepositoryWrapper, RepositoryWrapper>();
             builder.Services.AddScoped<IUserService, UserService>();

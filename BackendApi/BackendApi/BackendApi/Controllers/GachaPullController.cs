@@ -1,0 +1,84 @@
+using BackendApi.Contracts.GachPull;
+using Domain.Interfaces;
+using Domain.Models;
+using Mapster;
+using Microsoft.AspNetCore.Mvc;
+using System.Text.Json;
+
+namespace BackendApi.Controllers
+{
+    [Route("api/[controller]")]
+    [ApiController]
+    public class GachaPullController : ControllerBase
+    {
+        private IGachaPullService _GachaPullService;
+        public GachaPullController(IGachaPullService GachaPullService)
+        {
+            _GachaPullService = GachaPullService;
+        }
+        /// <summary>
+        /// Получение данных 
+        /// </summary>
+        [HttpGet]
+        public async Task<IActionResult> GetAll()
+        {
+            var result = await _GachaPullService.GetAll();
+            var response = result.Adapt<List<GetGachaPullResponse>>();
+
+            return Ok(response);
+        }
+        /// <summary>
+        /// Получение данных по ID
+        /// </summary>
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetById(int id)
+        {
+            var result = await _GachaPullService.GetById(id);
+            var response = result.Adapt<GetGachaPullResponse>();
+
+            return Ok(response);
+        }
+        /// <summary>
+        /// Запись результата крутки гача
+        /// </summary>
+        /// <remarks>
+        /// Пример запроса:
+        ///
+        ///     POST /GachaPulls
+        ///     {
+        ///       "userId": 1,
+        ///       "spellId": 2,
+        ///       "pullDate": "2024-01-17T14:30:00"
+        ///     }
+        ///
+        /// </remarks>
+        /// <param name="model">Данные крутки</param>
+        /// <returns>Запись о крутке</returns>
+        [HttpPost]
+        public async Task<IActionResult> Add(CreateGachaPullRequest request)
+        {
+            var GachaPullDto = request.Adapt<GachaPull>();
+            await _GachaPullService.Create(GachaPullDto);
+            return Ok();
+        }
+        /// <summary>
+        /// Изменить данные 
+        /// </summary>
+        [HttpPut]
+        public async Task<IActionResult> Update(GetGachaPullResponse request)
+        {
+            var GachaPullDto = request.Adapt<GachaPull>();
+            await _GachaPullService.Update(GachaPullDto);
+            return Ok();
+        }
+        /// <summary>
+        /// Удалить данные
+        /// </summary>
+        [HttpDelete]
+        public async Task<IActionResult> Delete(int id)
+        {
+            await _GachaPullService.Delete(id);
+            return Ok();
+        }
+    }
+}

@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "/9isnjz+/MBK4qy/uhfqOWJlHoPHFnLhiURnmadvdbfBnolu8JIQndAq4B1HEutBCa3v/CynLkOvBwLvvYMnxQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\TenVladislav\\Documents\\GitHub\\SpellLearning\\MyConsoleApp\\MyConsoleApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\TenVladislav\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\TenVladislav\\.nuget\\packages\\microsoft.extensions.configuration.binder\\8.0.0\\microsoft.extensions.configuration.binder.8.0.0.nupkg.sha512",
+    "C:\\Users\\TenVladislav\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\TenVladislav\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
+    "C:\\Users\\TenVladislav\\.nuget\\packages\\microsoft.extensions.options.configurationextensions\\8.0.0\\microsoft.extensions.options.configurationextensions.8.0.0.nupkg.sha512",
+    "C:\\Users\\TenVladislav\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "C:\\Users\\TenVladislav\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
+    "C:\\Users\\TenVladislav\\.nuget\\packages\\system.text.json\\8.0.5\\system.text.json.8.0.5.nupkg.sha512",
+    "C:\\Users\\TenVladislav\\.nuget\\packages\\telegram.bot\\22.7.2\\telegram.bot.22.7.2.nupkg.sha512"
+  ],
+  "logs": []
+}

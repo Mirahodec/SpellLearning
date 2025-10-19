@@ -1,9 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Domain",
-    "\\Domain\\Interfaces"
+    "\\.github",
+    "\\.github\\workflows",
+    "\\BackendApi",
+    "\\MyConsoleApp"
   ],
-  "SelectedNode": "\\BackendApi.sln",
+  "SelectedNode": "\\.gitattributes",
   "PreviewInSolutionExplorer": false
 }

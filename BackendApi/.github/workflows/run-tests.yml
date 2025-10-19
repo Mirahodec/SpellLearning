@@ -1,0 +1,29 @@
+name: Run Unit Tests
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Setup .NET 6.0
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: '6.0.x'
+
+    - name: Restore dependencies
+      run: dotnet restore ./BackendApi/BackendApi.sln
+
+    - name: Build
+      run: dotnet build ./BackendApi/BackendApi.sln --no-restore --configuration Release
+
+    - name: Run unit tests
+      run: dotnet test ./BackendApi/BackendApi.sln --no-build --configuration Release --verbosity normal

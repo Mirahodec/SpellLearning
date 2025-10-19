@@ -1,0 +1,43 @@
+C:\Users\TenVladislav\Documents\GitHub\SpellLearning\BackendApi\Domain\bin\Debug\net6.0\Domain.deps.json
+C:\Users\TenVladislav\Documents\GitHub\SpellLearning\BackendApi\Domain\bin\Debug\net6.0\Domain.dll
+C:\Users\TenVladislav\Documents\GitHub\SpellLearning\BackendApi\Domain\bin\Debug\net6.0\Domain.pdb
+C:\Users\TenVladislav\Documents\GitHub\SpellLearning\BackendApi\Domain\obj\Debug\net6.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TenVladislav\Documents\GitHub\SpellLearning\BackendApi\Domain\obj\Debug\net6.0\Domain.AssemblyInfoInputs.cache
+C:\Users\TenVladislav\Documents\GitHub\SpellLearning\BackendApi\Domain\obj\Debug\net6.0\Domain.AssemblyInfo.cs
+C:\Users\TenVladislav\Documents\GitHub\SpellLearning\BackendApi\Domain\obj\Debug\net6.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\TenVladislav\Documents\GitHub\SpellLearning\BackendApi\Domain\obj\Debug\net6.0\Domain.dll
+C:\Users\TenVladislav\Documents\GitHub\SpellLearning\BackendApi\Domain\obj\Debug\net6.0\refint\Domain.dll
+C:\Users\TenVladislav\Documents\GitHub\SpellLearning\BackendApi\Domain\obj\Debug\net6.0\Domain.pdb
+C:\Users\TenVladislav\Documents\GitHub\SpellLearning\BackendApi\Domain\obj\Debug\net6.0\ref\Domain.dll
+C:\Users\TenVladislav\Documents\GitHub\SpellLearning\BackendApi\Domain\bin\Debug\net6.0\Domain.runtimeconfig.json
+C:\Users\TenVladislav\Documents\GitHub\SpellLearning\BackendApi\Domain\obj\Debug\net6.0\Domain.csproj.AssemblyReference.cache
+C:\Users\TenVladislav\Documents\GitHub\SpellLearning\BackendApi\Domain\obj\Debug\net6.0\Domain.genruntimeconfig.cache
+C:\Users\Student\Desktop\BackendApi\Domain\bin\Debug\net6.0\Domain.deps.json
+C:\Users\Student\Desktop\BackendApi\Domain\bin\Debug\net6.0\Domain.runtimeconfig.json
+C:\Users\Student\Desktop\BackendApi\Domain\bin\Debug\net6.0\Domain.dll
+C:\Users\Student\Desktop\BackendApi\Domain\bin\Debug\net6.0\Domain.pdb
+C:\Users\Student\Desktop\BackendApi\Domain\obj\Debug\net6.0\Domain.csproj.AssemblyReference.cache
+C:\Users\Student\Desktop\BackendApi\Domain\obj\Debug\net6.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Student\Desktop\BackendApi\Domain\obj\Debug\net6.0\Domain.AssemblyInfoInputs.cache
+C:\Users\Student\Desktop\BackendApi\Domain\obj\Debug\net6.0\Domain.AssemblyInfo.cs
+C:\Users\Student\Desktop\BackendApi\Domain\obj\Debug\net6.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\Student\Desktop\BackendApi\Domain\obj\Debug\net6.0\Domain.dll
+C:\Users\Student\Desktop\BackendApi\Domain\obj\Debug\net6.0\refint\Domain.dll
+C:\Users\Student\Desktop\BackendApi\Domain\obj\Debug\net6.0\Domain.pdb
+C:\Users\Student\Desktop\BackendApi\Domain\obj\Debug\net6.0\Domain.genruntimeconfig.cache
+C:\Users\Student\Desktop\BackendApi\Domain\obj\Debug\net6.0\ref\Domain.dll
+C:\Users\Student\Desktop\Tatymov 25IS-11D\mini-game Tatymov 25IS-11D\mini-game Tatymov 25IS-11D\SpellLearning\BackendApi\Domain\bin\Debug\net6.0\Domain.deps.json
+C:\Users\Student\Desktop\Tatymov 25IS-11D\mini-game Tatymov 25IS-11D\mini-game Tatymov 25IS-11D\SpellLearning\BackendApi\Domain\bin\Debug\net6.0\Domain.runtimeconfig.json
+C:\Users\Student\Desktop\Tatymov 25IS-11D\mini-game Tatymov 25IS-11D\mini-game Tatymov 25IS-11D\SpellLearning\BackendApi\Domain\bin\Debug\net6.0\Domain.dll
+C:\Users\Student\Desktop\Tatymov 25IS-11D\mini-game Tatymov 25IS-11D\mini-game Tatymov 25IS-11D\SpellLearning\BackendApi\Domain\bin\Debug\net6.0\Domain.pdb
+C:\Users\Student\Desktop\Tatymov 25IS-11D\mini-game Tatymov 25IS-11D\mini-game Tatymov 25IS-11D\SpellLearning\BackendApi\Domain\obj\Debug\net6.0\Domain.csproj.AssemblyReference.cache
+C:\Users\Student\Desktop\Tatymov 25IS-11D\mini-game Tatymov 25IS-11D\mini-game Tatymov 25IS-11D\SpellLearning\BackendApi\Domain\obj\Debug\net6.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Student\Desktop\Tatymov 25IS-11D\mini-game Tatymov 25IS-11D\mini-game Tatymov 25IS-11D\SpellLearning\BackendApi\Domain\obj\Debug\net6.0\Domain.AssemblyInfoInputs.cache
+C:\Users\Student\Desktop\Tatymov 25IS-11D\mini-game Tatymov 25IS-11D\mini-game Tatymov 25IS-11D\SpellLearning\BackendApi\Domain\obj\Debug\net6.0\Domain.AssemblyInfo.cs
+C:\Users\Student\Desktop\Tatymov 25IS-11D\mini-game Tatymov 25IS-11D\mini-game Tatymov 25IS-11D\SpellLearning\BackendApi\Domain\obj\Debug\net6.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\Student\Desktop\Tatymov 25IS-11D\mini-game Tatymov 25IS-11D\mini-game Tatymov 25IS-11D\SpellLearning\BackendApi\Domain\obj\Debug\net6.0\Domain.sourcelink.json
+C:\Users\Student\Desktop\Tatymov 25IS-11D\mini-game Tatymov 25IS-11D\mini-game Tatymov 25IS-11D\SpellLearning\BackendApi\Domain\obj\Debug\net6.0\Domain.dll
+C:\Users\Student\Desktop\Tatymov 25IS-11D\mini-game Tatymov 25IS-11D\mini-game Tatymov 25IS-11D\SpellLearning\BackendApi\Domain\obj\Debug\net6.0\refint\Domain.dll
+C:\Users\Student\Desktop\Tatymov 25IS-11D\mini-game Tatymov 25IS-11D\mini-game Tatymov 25IS-11D\SpellLearning\BackendApi\Domain\obj\Debug\net6.0\Domain.pdb
+C:\Users\Student\Desktop\Tatymov 25IS-11D\mini-game Tatymov 25IS-11D\mini-game Tatymov 25IS-11D\SpellLearning\BackendApi\Domain\obj\Debug\net6.0\Domain.genruntimeconfig.cache
+C:\Users\Student\Desktop\Tatymov 25IS-11D\mini-game Tatymov 25IS-11D\mini-game Tatymov 25IS-11D\SpellLearning\BackendApi\Domain\obj\Debug\net6.0\ref\Domain.dll

@@ -9,7 +9,7 @@ services:
     environment:
       - ASPNETCORE_URLS=http://+:5000
       - ASPNETCORE_ENVIRONMENT=Development
-      - ConnectionString=Host=db;Port=5432;Database=SpellLearning;Username=postgres;Password=1
+      - ConnectionString= Host=caboose.proxy.rlwy.net;Port=30054;Database=railway;Username=postgres;Password=QBTnFFDtldtQtwuvOJcyyEsxDmoZooGX
     ports:
       - "5000:5000"
     depends_on:

@@ -20,8 +20,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusinessLogic.Tests", "Busi
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DF8EDBF4-C5C5-4E64-AE77-B7DD147AD074}"
 	ProjectSection(SolutionItems) = preProject
-		BackendApi\Dockerfile = BackendApi\Dockerfile
 		Docker-compose.yml = Docker-compose.yml
+		BackendApi\Dockerfile = BackendApi\Dockerfile
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{9A524A3B-679A-4C9F-83B0-48A369E07837}"

@@ -1,9 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Domain",
-    "\\Domain\\Interfaces"
+    "\\src",
+    "\\src\\BackendApi",
+    "\\src\\Domain",
+    "\\src\\Domain\\Models"
   ],
-  "SelectedNode": "\\BackendApi.sln",
+  "SelectedNode": "\\src\\Domain\\Models\\SpellLearningContext.cs",
   "PreviewInSolutionExplorer": false
 }

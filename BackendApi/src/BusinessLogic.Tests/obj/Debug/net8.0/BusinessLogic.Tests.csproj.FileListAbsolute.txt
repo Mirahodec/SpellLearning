@@ -124,9 +124,9 @@ C:\Users\TenVladislav\Documents\GitHub\SpellLearning\BackendApi\BusinessLogic.Te
 C:\Users\TenVladislav\Documents\GitHub\SpellLearning\BackendApi\BusinessLogic.Tests\bin\Debug\net8.0\xunit.runner.visualstudio.testadapter.dll
 C:\Users\TenVladislav\Documents\GitHub\SpellLearning\BackendApi\src\BusinessLogic.Tests\bin\Debug\net8.0\.msCoverageSourceRootsMapping_BusinessLogic.Tests
 C:\Users\TenVladislav\Documents\GitHub\SpellLearning\BackendApi\src\BusinessLogic.Tests\bin\Debug\net8.0\CoverletSourceRootsMapping_BusinessLogic.Tests
-C:\Users\TenVladislav\Documents\GitHub\SpellLearning\BackendApi\src\BusinessLogic.Tests\bin\Debug\net8.0\testhost.exe
 C:\Users\TenVladislav\Documents\GitHub\SpellLearning\BackendApi\src\BusinessLogic.Tests\bin\Debug\net8.0\testhost.dll
 C:\Users\TenVladislav\Documents\GitHub\SpellLearning\BackendApi\src\BusinessLogic.Tests\bin\Debug\net8.0\xunit.abstractions.dll
+C:\Users\TenVladislav\Documents\GitHub\SpellLearning\BackendApi\src\BusinessLogic.Tests\bin\Debug\net8.0\testhost.exe
 C:\Users\TenVladislav\Documents\GitHub\SpellLearning\BackendApi\src\BusinessLogic.Tests\bin\Debug\net8.0\xunit.runner.visualstudio.testadapter.dll
 C:\Users\TenVladislav\Documents\GitHub\SpellLearning\BackendApi\src\BusinessLogic.Tests\bin\Debug\net8.0\BusinessLogic.Tests.deps.json
 C:\Users\TenVladislav\Documents\GitHub\SpellLearning\BackendApi\src\BusinessLogic.Tests\bin\Debug\net8.0\BusinessLogic.Tests.runtimeconfig.json

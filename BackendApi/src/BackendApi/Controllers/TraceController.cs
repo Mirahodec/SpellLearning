@@ -52,6 +52,7 @@ namespace BackendApi.Controllers
         ///       "inventoryIdWant": 11,
         ///       "status": "ожидание",
         ///       "createdAt": "2024-02-05T14:30:00"
+        ///       "ResolvedAt": "2025-02-05T14:30:00"
         ///     }
         ///
         /// </remarks>

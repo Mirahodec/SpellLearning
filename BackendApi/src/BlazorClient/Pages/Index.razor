@@ -5,14 +5,45 @@
 <p>Текущая дата: @CurrentDate</p>
 <p>Текущее время: @CurrentTime</p>
 
+@foreach (var user in result)
+{
+    <p>@user.Username @user.Email @user.CreatedAt.ToShortDateString()</p>
+}
 
 @code {
-	string CurrentDate;
-	string CurrentTime;
-	protected override async Task OnInitializedAsync()
-	{
-		var date = DateTime.Now;
-		CurrentDate = date.ToShortDateString();
-		CurrentTime = date.ToShortTimeString();
-	}
+    public class User
+    {
+        public int UserId { get; set; }
+        public string Username { get; set; }
+        public string Email { get; set; }
+        public string PasswordHash { get; set; }
+        public DateTime CreatedAt { get; set; }
+        public DateTime LastLogin { get; set; }
+        public int CurrencyClick { get; set; }
+        public int CurrencyGame { get; set; }
+    }
+
+    private User[] result = Array.Empty<User>();
+    private string CurrentDate;
+    private string CurrentTime;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var date = DateTime.Now;
+        CurrentDate = date.ToShortDateString();
+        CurrentTime = date.ToShortTimeString();
+
+        try
+        {
+            using var client = new HttpClient();
+            client.BaseAddress = new Uri("https://spelllearning-production.up.railway.app/");
+
+            result = await client.GetFromJsonAsync<User[]>("api/Users");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Ошибка: {ex.Message}");
+            result = Array.Empty<User>();
+        }
+    }
 }

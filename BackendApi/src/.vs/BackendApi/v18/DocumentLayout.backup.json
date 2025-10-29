@@ -1,0 +1,195 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\TenVladislav\\Documents\\GitHub\\SpellLearning\\BackendApi\\src\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0B5C080B-4C16-4EC4-BAB8-B798A7606445}|BackendApi\\BackendApi.csproj|c:\\users\\tenvladislav\\documents\\github\\spelllearning\\backendapi\\src\\backendapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B5C080B-4C16-4EC4-BAB8-B798A7606445}|BackendApi\\BackendApi.csproj|solutionrelative:backendapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4CEB5BE-F496-4EF0-88B2-91A274A7E178}|BlazorClient\\BlazorClient.csproj|c:\\users\\tenvladislav\\documents\\github\\spelllearning\\backendapi\\src\\blazorclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4CEB5BE-F496-4EF0-88B2-91A274A7E178}|BlazorClient\\BlazorClient.csproj|solutionrelative:blazorclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4CEB5BE-F496-4EF0-88B2-91A274A7E178}|BlazorClient\\BlazorClient.csproj|c:\\users\\tenvladislav\\documents\\github\\spelllearning\\backendapi\\src\\blazorclient\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4CEB5BE-F496-4EF0-88B2-91A274A7E178}|BlazorClient\\BlazorClient.csproj|solutionrelative:blazorclient\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4CEB5BE-F496-4EF0-88B2-91A274A7E178}|BlazorClient\\BlazorClient.csproj|c:\\users\\tenvladislav\\documents\\github\\spelllearning\\backendapi\\src\\blazorclient\\blazorclient.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E4CEB5BE-F496-4EF0-88B2-91A274A7E178}|BlazorClient\\BlazorClient.csproj|solutionrelative:blazorclient\\blazorclient.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B5C080B-4C16-4EC4-BAB8-B798A7606445}|BackendApi\\BackendApi.csproj|c:\\users\\tenvladislav\\documents\\github\\spelllearning\\backendapi\\src\\backendapi\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B5C080B-4C16-4EC4-BAB8-B798A7606445}|BackendApi\\BackendApi.csproj|solutionrelative:backendapi\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B5C080B-4C16-4EC4-BAB8-B798A7606445}|BackendApi\\BackendApi.csproj|c:\\users\\tenvladislav\\documents\\github\\spelllearning\\backendapi\\src\\backendapi\\backendapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0B5C080B-4C16-4EC4-BAB8-B798A7606445}|BackendApi\\BackendApi.csproj|solutionrelative:backendapi\\backendapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF8EDBF4-C5C5-4E64-AE77-B7DD147AD074}|src{DF8EDBF4-C5C5-4E64-AE77-B7DD147AD074}|C:\\Users\\TenVladislav\\Documents\\GitHub\\SpellLearning\\BackendApi\\src\\Docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{DF8EDBF4-C5C5-4E64-AE77-B7DD147AD074}|src{DF8EDBF4-C5C5-4E64-AE77-B7DD147AD074}|solutionrelative:Docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B5C080B-4C16-4EC4-BAB8-B798A7606445}|BackendApi\\BackendApi.csproj|c:\\users\\tenvladislav\\documents\\github\\spelllearning\\backendapi\\src\\backendapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0B5C080B-4C16-4EC4-BAB8-B798A7606445}|BackendApi\\BackendApi.csproj|solutionrelative:backendapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\TenVladislav\\Desktop\\railway.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\8.0.121\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\TenVladislav\\Documents\\GitHub\\SpellLearning\\BackendApi\\src\\BackendApi\\Program.cs",
+              "RelativeDocumentMoniker": "BackendApi\\Program.cs",
+              "ToolTip": "C:\\Users\\TenVladislav\\Documents\\GitHub\\SpellLearning\\BackendApi\\src\\BackendApi\\Program.cs*",
+              "RelativeToolTip": "BackendApi\\Program.cs*",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAQwEkAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T17:14:22.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BlazorClient.csproj",
+              "DocumentMoniker": "C:\\Users\\TenVladislav\\Documents\\GitHub\\SpellLearning\\BackendApi\\src\\BlazorClient\\BlazorClient.csproj",
+              "RelativeDocumentMoniker": "BlazorClient\\BlazorClient.csproj",
+              "ToolTip": "C:\\Users\\TenVladislav\\Documents\\GitHub\\SpellLearning\\BackendApi\\src\\BlazorClient\\BlazorClient.csproj",
+              "RelativeToolTip": "BlazorClient\\BlazorClient.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-28T08:41:33.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.razor",
+              "DocumentMoniker": "C:\\Users\\TenVladislav\\Documents\\GitHub\\SpellLearning\\BackendApi\\src\\BlazorClient\\Pages\\Index.razor",
+              "RelativeDocumentMoniker": "BlazorClient\\Pages\\Index.razor",
+              "ToolTip": "C:\\Users\\TenVladislav\\Documents\\GitHub\\SpellLearning\\BackendApi\\src\\BlazorClient\\Pages\\Index.razor*",
+              "RelativeToolTip": "BlazorClient\\Pages\\Index.razor*",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-28T08:24:16.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\TenVladislav\\Documents\\GitHub\\SpellLearning\\BackendApi\\src\\BlazorClient\\Program.cs",
+              "RelativeDocumentMoniker": "BlazorClient\\Program.cs",
+              "ToolTip": "C:\\Users\\TenVladislav\\Documents\\GitHub\\SpellLearning\\BackendApi\\src\\BlazorClient\\Program.cs",
+              "RelativeToolTip": "BlazorClient\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T08:24:35.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BackendApi.csproj",
+              "DocumentMoniker": "C:\\Users\\TenVladislav\\Documents\\GitHub\\SpellLearning\\BackendApi\\src\\BackendApi\\BackendApi.csproj",
+              "RelativeDocumentMoniker": "BackendApi\\BackendApi.csproj",
+              "ToolTip": "C:\\Users\\TenVladislav\\Documents\\GitHub\\SpellLearning\\BackendApi\\src\\BackendApi\\BackendApi.csproj",
+              "RelativeToolTip": "BackendApi\\BackendApi.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-28T08:00:04.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Docker-compose.yml",
+              "DocumentMoniker": "C:\\Users\\TenVladislav\\Documents\\GitHub\\SpellLearning\\BackendApi\\src\\Docker-compose.yml",
+              "RelativeDocumentMoniker": "Docker-compose.yml",
+              "ToolTip": "C:\\Users\\TenVladislav\\Documents\\GitHub\\SpellLearning\\BackendApi\\src\\Docker-compose.yml",
+              "RelativeToolTip": "Docker-compose.yml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAACNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-10-27T09:39:02.9Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Microsoft.PackageDependencyResolution.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\8.0.121\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\8.0.121\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\8.0.121\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\8.0.121\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "ViewState": "AQIAAPcAAAAAAAAAAAAhwAkBAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-10-19T20:38:12.981Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\TenVladislav\\Documents\\GitHub\\SpellLearning\\BackendApi\\src\\BackendApi\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "BackendApi\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\TenVladislav\\Documents\\GitHub\\SpellLearning\\BackendApi\\src\\BackendApi\\WeatherForecast.cs",
+              "RelativeToolTip": "BackendApi\\WeatherForecast.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T20:38:18.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "railway.json",
+              "DocumentMoniker": "C:\\Users\\TenVladislav\\Desktop\\railway.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Desktop\\railway.json",
+              "ToolTip": "C:\\Users\\TenVladislav\\Desktop\\railway.json",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Desktop\\railway.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-27T10:01:34.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\TenVladislav\\Documents\\GitHub\\SpellLearning\\BackendApi\\src\\BackendApi\\appsettings.json",
+              "RelativeDocumentMoniker": "BackendApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\TenVladislav\\Documents\\GitHub\\SpellLearning\\BackendApi\\src\\BackendApi\\appsettings.json",
+              "RelativeToolTip": "BackendApi\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-19T20:19:55.186Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

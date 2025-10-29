@@ -1,132 +1,160 @@
 ﻿@page "/"
 
-<nav class="py-3 navbar navbar-expand-lg fixed-top auto-hiding-navbar navbar-light bg-light">
+<nav class="py-3 navbar navbar-expand-lg fixed-top navbar-light">
     <div class="container">
-        <a class="navbar-brand" href="#">Название</a>
+        <a class="navbar-brand" href="#">
+            <i class="fas fa-magic me-2"></i>SpellLearning
+        </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Главная</a>
+                    <a class="nav-link active" aria-current="page" href="#">
+                        <i class="fas fa-home me-1"></i>Главная
+                    </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/users">Пользователи</a>
+                    <a class="nav-link" href="/spells">
+                        <i class="fas fa-book-spells me-1"></i>Заклинания
+                    </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Контакты</a>
+                    <a class="nav-link" href="/users">
+                        <i class="fas fa-users me-1"></i>Маги
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <i class="fas fa-envelope me-1"></i>Контакты
+                    </a>
                 </li>
             </ul>
         </div>
     </div>
 </nav>
+
 <section id="hero">
     <div class="container">
-        <div class="row">
-            <div class="col">
-                <h1>Привет,<br>базист!</h1>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet soluta veniam voluptate aliquam deleniti labore quod quis illum, sapiente nam nesciunt magni voluptatibus voluptatem incidunt placeat consequuntur quaerat voluptatum expedita!</p>
-                <button type="button" class="btn btn-dark btn-lg">Начать!</button>
+        <div class="row align-items-center">
+            <div class="col-lg-6 col-md-12 hero-content">
+                <h1>Приветствую тебя,<br>юный маг!</h1>
+                <p>Добро пожаловать в SpellLearning — академию древних заклинаний, где каждый может стать великим волшебником. Изучай магические артефакты, осваивай заклинания и раскрой свой магический потенциал!</p>
+                <button type="button" class="btn btn-magic">
+                    <i class="fas fa-wand-magic-sparkles me-2"></i>Начать обучение
+                </button>
             </div>
-            <div class="col">
-                <img src="https://repository-images.githubusercontent.com/190767422/73354680-8949-11e9-8dc9-b5749b98dd26" alt="...">
+            <div class="col-lg-6 col-md-12 wizard-image">
+                <img src="https://placehold.co/300x300/1a1a2e/4cc9f0?text=🧙‍♂️" alt="Великий маг" class="img-fluid">
             </div>
         </div>
-        <div class="row cards">
-            <div class="col-md-4 d-flex justify-content-center">
-                <div class="card">
-                    <div class="card-body">
-                        <!-- here is where they add the ICON -->
-                        <img src="https://repository-images.githubusercontent.com/190767422/73354680-8949-11e9-8dc9-b5749b98dd26" alt="..." class="icon">
-                        <h5 class="card-title">SQL Server</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    </div>
+</section>
+
+<div class="container">
+    <div class="cards-section">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="spell-card">
+                    <div class="spell-icon">
+                        <i class="fas fa-fire"></i>
+                    </div>
+                    <h3 class="spell-title">Огненный Шар</h3>
+                    <p class="spell-description">Мощное огненное заклинание, создающее сферу пламени, способную уничтожить врагов на большом расстоянии.</p>
+                    <div class="spell-stats">
+                        <div class="stat">
+                            <div class="stat-value">85</div>
+                            <div class="stat-label">Сила</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-value">60</div>
+                            <div class="stat-label">Мана</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-value">3</div>
+                            <div class="stat-label">Уровень</div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 d-flex justify-content-center">
-                <div class="card">
-                    <div class="card-body">
-                        <!-- here is where they add the ICON -->
-                        <img src="https://repository-images.githubusercontent.com/190767422/73354680-8949-11e9-8dc9-b5749b98dd26" alt="..." class="icon">
-                        <h5 class="card-title">Web API</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <div class="col-md-4">
+                <div class="spell-card">
+                    <div class="spell-icon">
+                        <i class="fas fa-snowflake"></i>
+                    </div>
+                    <h3 class="spell-title">Ледяная Стрела</h3>
+                    <p class="spell-description">Заклинание создает острую стрелу изо льда, которая замораживает цель и наносит урон холодом.</p>
+                    <div class="spell-stats">
+                        <div class="stat">
+                            <div class="stat-value">70</div>
+                            <div class="stat-label">Сила</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-value">45</div>
+                            <div class="stat-label">Мана</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-value">2</div>
+                            <div class="stat-label">Уровень</div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 d-flex justify-content-center">
-                <div class="card">
-                    <div class="card-body">
-                        <!-- here is where they add the ICON -->
-                        <img src="https://repository-images.githubusercontent.com/190767422/73354680-8949-11e9-8dc9-b5749b98dd26" alt="..." class="icon">
-                        <h5 class="card-title">Blazor WASM</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <div class="col-md-4">
+                <div class="spell-card">
+                    <div class="spell-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3 class="spell-title">Молния</h3>
+                    <p class="spell-description">Призывает мощную молнию с небес, поражающую всех врагов в указанной области мгновенным уроном.</p>
+                    <div class="spell-stats">
+                        <div class="stat">
+                            <div class="stat-value">95</div>
+                            <div class="stat-label">Сила</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-value">80</div>
+                            <div class="stat-label">Мана</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-value">5</div>
+                            <div class="stat-label">Уровень</div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</section>
+</div>
+
 <section id="about-us">
     <div class="container">
         <div class="row align-items-center">
-            <div class="col">
-                <!-- another image can be inserted here -->
-                <img src="https://repository-images.githubusercontent.com/190767422/73354680-8949-11e9-8dc9-b5749b98dd26" alt="..." class="img-fluid" />
+            <div class="col-lg-6 col-md-12 mb-4 mb-lg-0">
+                <img src="https://placehold.co/500x400/16213e/4cc9f0?text=📚" alt="Магическая библиотека" class="img-fluid rounded">
             </div>
-            <div class="col">
-                <h1>Кратко о проекте</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia tenetur reiciendis in quae, rem corporis id sequi debitis aliquam laudantium illum vel unde? Praesentium laboriosam neque eaque architecto maxime nihil?</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia tenetur reiciendis in quae, rem corporis id sequi debitis aliquam laudantium illum vel unde? Praesentium laboriosam neque eaque architecto maxime nihil?</p>
-                <button type="button" class="btn btn-dark btn-lg">Подробнее</button>
+            <div class="col-lg-6 col-md-12 about-content">
+                <h1>О SpellLearning</h1>
+                <p>SpellLearning — это уникальная магическая академия, основанная в древние времена великими архимагами. Наша миссия — передавать знания о магии новым поколениям волшебников и помогать каждому раскрыть свой истинный магический потенциал.</p>
+                <p>В нашей академии ты найдешь тысячи заклинаний, древние манускрипты, магические артефакты и наставников, которые проведут тебя по пути становления великим магом. Независимо от твоего текущего уровня, у нас есть программа обучения именно для тебя!</p>
+                <button type="button" class="btn btn-magic">
+                    <i class="fas fa-graduation-cap me-2"></i>Подробнее об академии
+                </button>
             </div>
         </div>
     </div>
 </section>
+
 <section id="contact">
     <div class="container">
-        <div class="row align-items-center projects">
-            <div class="col">
-                <h1>Я люблю базы данных!</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quod aliquam corporis tempore nostrum. Animi rem quisquam deleniti qui ad ipsa quod! Animi corrupti, ex blanditiis dolor error nulla consectetur.</p>
-            </div>
+        <div class="contact-content">
+            <h1>Я люблю магию!</h1>
+            <p>Магия — это не просто сила, это искусство, наука и путь к самопознанию. В SpellLearning мы верим, что каждый человек рожден с искрой магии внутри себя. Наша задача — помочь тебе разжечь этот огонь и стать тем, кем ты предназначен быть!</p>
         </div>
     </div>
 </section>
-@code {
-    public class User
-    {
-        public int UserId { get; set; }
-        public string Username { get; set; }
-        public string Email { get; set; }
-        public string PasswordHash { get; set; }
-        public DateTime CreatedAt { get; set; }
-        public DateTime LastLogin { get; set; }
-        public int CurrencyClick { get; set; }
-        public int CurrencyGame { get; set; }
-    }
 
-    private User[] result = Array.Empty<User>();
-    private string CurrentDate;
-    private string CurrentTime;
+<div class="magic-particles" id="particles"></div>
+<script src="js/jscode.js"></script>
 
-    protected override async Task OnInitializedAsync()
-    {
-        var date = DateTime.Now;
-        CurrentDate = date.ToShortDateString();
-        CurrentTime = date.ToShortTimeString();
-
-        try
-        {
-            using var client = new HttpClient();
-            client.BaseAddress = new Uri("https://spelllearning-production.up.railway.app/");
-
-            result = await client.GetFromJsonAsync<User[]>("api/User");
-        }
-        catch (Exception ex)
-        {
-            Console.WriteLine($"Ошибка: {ex.Message}");
-            result = Array.Empty<User>();
-        }
-    }
-}

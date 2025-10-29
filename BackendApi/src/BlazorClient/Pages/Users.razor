@@ -1,39 +1,98 @@
 ﻿@page "/users"
 
-<section id="">
+<nav class="py-3 navbar navbar-expand-lg fixed-top navbar-light">
     <div class="container">
-        <p>Текущее время: @CurrentTime</p>
-        <p>Текущая дата: @CurrentDate</p>
+        <a class="navbar-brand" href="#">
+            <i class="fas fa-magic me-2"></i>SpellLearning
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="/">
+                        <i class="fas fa-home me-1"></i>Главная
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/spells">
+                        <i class="fas fa-book-spells me-1"></i>Заклинания
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="/users">
+                        <i class="fas fa-users me-1"></i>Маги
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <i class="fas fa-envelope me-1"></i>Контакты
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
 
-        <h1>Пользователи</h1>
+<div class="container">
+    <div class="header-section">
+        <div class="current-time">
+            <i class="fas fa-clock me-2"></i>Текущее время: <span id="currentTime">--:--:--</span>
+        </div>
+        <div class="current-date">
+            <i class="fas fa-calendar-alt me-2"></i>Текущая дата: <span id="currentDate">--.--.----</span>
+        </div>
+        <h1 class="section-title">Великие Маги Академии</h1>
+        <p class="text-muted">Здесь собраны все маги, обучающиеся в SpellLearning. Каждый из них обладает уникальными способностями и магическим потенциалом!</p>
+    </div>
 
-        <table class="table">
+    <div class="mages-table">
+        @if (isLoading)
+        {
+        <div class="loading-container" id="loading">
+            <div class="loading-spinner"></div>
+            <p>Загрузка списка великих магов...</p>
+        </div>
+        }else
+        {
+
+        <table class="table table-hover" id="magesTable" style="display: table;">
             <thead>
                 <tr>
-                    <th scope="col">UserId</th>
-                    <th scope="col">Username</th>
-                    <th scope="col">Email</th>
-                    <th scope="col">CreatedAt</th>
-                    <th scope="col">CurrencyGame</th>
+                    <th scope="col"><i class="fas fa-hashtag me-1"></i>ID</th>
+                    <th scope="col"><i class="fas fa-user me-1"></i>Маг</th>
+                    <th scope="col"><i class="fas fa-envelope me-1"></i>Почта</th>
+                    <th scope="col"><i class="fas fa-calendar-plus me-1"></i>Зачислен</th>
+                    <th scope="col"><i class="fas fa-coins me-1"></i>Магические монеты</th>
                 </tr>
             </thead>
-            <tbody>
+            <tbody id="magesBody">
+                <!-- Your Blazor table content will be rendered here -->
                 @foreach (var user in result)
                 {
                     <tr>
-                        <th scope="row">@user.UserId</th>
-                        <td>@user.Username</td>
-                        <td>@user.Email</td>
-                        <td>@user.CreatedAt.ToShortDateString()</td>
-                        <td>@user.CurrencyGame</td>
+                        <td data-label="ID">@user.UserId</td>
+                        <td data-label="Маг" class="username-cell">
+                            <div class="mage-avatar">@user.Username.Substring(0, 1).ToUpper()</div>
+                            @user.Username
+                        </td>
+                        <td data-label="Почта">@user.Email</td>
+                        <td data-label="Зачислен" class="date-cell">@user.CreatedAt.ToShortDateString()</td>
+                        <td data-label="Магические монеты">
+                            <span class="currency-badge">
+                                <i class="fas fa-coins me-1"></i>@user.CurrencyGame
+                            </span>
+                        </td>
                     </tr>
                 }
             </tbody>
         </table>
+        }
     </div>
-</section>
-
-
+</div>
+<div class="magic-particles" id="particles"></div>
+<script src="js/jscode.js"></script>
 @code {
     public class User
     {
@@ -48,21 +107,26 @@
     }
 
     public User[] result = new User[] { };
-
-    string CurrentDate;
-    string CurrentTime;
+    private bool isLoading = true;
 
     protected override async Task OnInitializedAsync()
     {
-        var date = DateTime.Now;
-        CurrentDate = date.ToShortDateString();
-        CurrentTime = date.ToShortTimeString();
+        isLoading = true;
+        try
+        {
+            using var client = new HttpClient();
+            client.BaseAddress = new Uri("https://spelllearning-production.up.railway.app/");
 
-        var client = new HttpClient();
-        client.BaseAddress = new Uri("https://spelllearning-production.up.railway.app/");
-
-        result = await client.GetFromJsonAsync<User[]>("api/User");
-
-        return;
+            result = await client.GetFromJsonAsync<User[]>("api/User");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Ошибка: {ex.Message}");
+            result = Array.Empty<User>();
+        }
+        finally
+        {
+            isLoading = false;
+        }
     }
 }

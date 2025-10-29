@@ -71,7 +71,7 @@ namespace BackendApi
                 app.UseSwagger();
                 app.UseSwaggerUI();
             }
-            app.UseCors(builder => builder.WithOrigins(new[] { "http://localhost:5080", })
+            app.UseCors(builder => builder.WithOrigins(new[] { "https://localhost:44375", })
                 .AllowAnyHeader()
                 .AllowAnyMethod());
 

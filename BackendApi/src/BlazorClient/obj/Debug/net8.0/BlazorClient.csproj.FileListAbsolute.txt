@@ -1032,6 +1032,6 @@ C:\Users\TenVladislav\Documents\GitHub\SpellLearning\BackendApi\src\BlazorClient
 C:\Users\TenVladislav\Documents\GitHub\SpellLearning\BackendApi\src\BlazorClient\obj\Debug\net8.0\refint\BlazorClient.dll
 C:\Users\TenVladislav\Documents\GitHub\SpellLearning\BackendApi\src\BlazorClient\obj\Debug\net8.0\BlazorClient.pdb
 C:\Users\TenVladislav\Documents\GitHub\SpellLearning\BackendApi\src\BlazorClient\obj\Debug\net8.0\ref\BlazorClient.dll
-C:\Users\TenVladislav\Documents\GitHub\SpellLearning\BackendApi\src\BlazorClient\obj\Debug\net8.0\compressed\xr8uyhrrs6-{0}-fhgadr29va-fhgadr29va.gz
-C:\Users\TenVladislav\Documents\GitHub\SpellLearning\BackendApi\src\BlazorClient\obj\Debug\net8.0\compressed\p76m9ok4sd-{0}-8r7vrkochz-8r7vrkochz.gz
-C:\Users\TenVladislav\Documents\GitHub\SpellLearning\BackendApi\src\BlazorClient\obj\Debug\net8.0\compressed\bllwa4ry6o-{0}-nfy1a7jt8i-nfy1a7jt8i.gz
+C:\Users\TenVladislav\Documents\GitHub\SpellLearning\BackendApi\src\BlazorClient\obj\Debug\net8.0\compressed\xr8uyhrrs6-{0}-izpv5kdzlv-izpv5kdzlv.gz
+C:\Users\TenVladislav\Documents\GitHub\SpellLearning\BackendApi\src\BlazorClient\obj\Debug\net8.0\compressed\p76m9ok4sd-{0}-tyz0vjns70-tyz0vjns70.gz
+C:\Users\TenVladislav\Documents\GitHub\SpellLearning\BackendApi\src\BlazorClient\obj\Debug\net8.0\compressed\bllwa4ry6o-{0}-l4zg93306m-l4zg93306m.gz

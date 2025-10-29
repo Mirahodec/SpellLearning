@@ -19,7 +19,7 @@ namespace BackendApi
             builder.Services.AddDbContext<SpellLearningContext>(
                     options => options.UseNpgsql(
                         builder.Configuration["ConnectionString"]));
-
+            builder.Services.AddControllers();
             builder.Services.AddScoped<IRepositoryWrapper, RepositoryWrapper>();
             builder.Services.AddScoped<IUserService, UserService>();
             builder.Services.AddScoped<IGachaPullService, GachaPullService>();
@@ -76,13 +76,15 @@ namespace BackendApi
                 .AllowAnyMethod());
 
             app.UseHttpsRedirection();
-
+            app.UseRouting();
             app.UseAuthorization();
 
 
             app.MapControllers();
 
-            app.Run();
+            // Запуск на порту из Railway
+            var port = Environment.GetEnvironmentVariable("PORT") ?? "8080";
+            app.Run($"http://0.0.0.0:{port}");
         }
     }
 }

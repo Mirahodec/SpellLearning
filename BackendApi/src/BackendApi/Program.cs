@@ -74,7 +74,7 @@ namespace BackendApi
             app.UseCors(policy => policy
                 .WithOrigins(
                     "http://localhost:8080",
-                    "exemplary-enchantment-production-4c98.up.railway.app"
+                    "http://exemplary-enchantment-production-4c98.up.railway.app"
                 )
                 .AllowAnyHeader()
                 .AllowAnyMethod()

@@ -83,7 +83,7 @@ namespace BackendApi
             app.MapControllers();
 
             // Запуск на порту из Railway
-            var port = Environment.GetEnvironmentVariable("PORT") ?? "8080";
+            var port = Environment.GetEnvironmentVariable("PORT") ?? "80";
             app.Run($"http://0.0.0.0:{port}");
         }
     }

@@ -36,6 +36,7 @@ body {
     color: #f8f9fa;
     min-height: 100vh;
     margin: 0;
+    overflow: hidden;
     padding-top: 70px;
 }
 
@@ -381,6 +382,7 @@ body {
 
 .particle {
     position: absolute;
+
     width: 3px;
     height: 3px;
     background: rgba(76, 201, 240, 0.6);

@@ -4,8 +4,10 @@
     "\\.github",
     "\\.github\\workflows",
     "\\BackendApi",
+    "\\BackendApi\\src",
+    "\\BackendApi\\src\\BackendApi",
     "\\MyConsoleApp"
   ],
-  "SelectedNode": "\\.gitattributes",
+  "SelectedNode": "\\BackendApi\\src\\BackendApi\\Program.cs",
   "PreviewInSolutionExplorer": false
 }

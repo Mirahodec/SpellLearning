@@ -2069,6 +2069,6 @@ D:\Users\ten_vs\Documents\GitHub\SpellLearning\BackendApi\src\BlazorClient\obj\D
 D:\Users\ten_vs\Documents\GitHub\SpellLearning\BackendApi\src\BlazorClient\obj\Debug\net8.0\refint\BlazorClient.dll
 D:\Users\ten_vs\Documents\GitHub\SpellLearning\BackendApi\src\BlazorClient\obj\Debug\net8.0\BlazorClient.pdb
 D:\Users\ten_vs\Documents\GitHub\SpellLearning\BackendApi\src\BlazorClient\obj\Debug\net8.0\ref\BlazorClient.dll
-D:\Users\ten_vs\Documents\GitHub\SpellLearning\BackendApi\src\BlazorClient\obj\Debug\net8.0\compressed\xr8uyhrrs6-{0}-1shbi7pkgv-1shbi7pkgv.gz
-D:\Users\ten_vs\Documents\GitHub\SpellLearning\BackendApi\src\BlazorClient\obj\Debug\net8.0\compressed\p76m9ok4sd-{0}-e57bso63ox-e57bso63ox.gz
-D:\Users\ten_vs\Documents\GitHub\SpellLearning\BackendApi\src\BlazorClient\obj\Debug\net8.0\compressed\bllwa4ry6o-{0}-ot7grqztwr-ot7grqztwr.gz
+D:\Users\ten_vs\Documents\GitHub\SpellLearning\BackendApi\src\BlazorClient\obj\Debug\net8.0\compressed\xr8uyhrrs6-{0}-iqypdc9ot2-iqypdc9ot2.gz
+D:\Users\ten_vs\Documents\GitHub\SpellLearning\BackendApi\src\BlazorClient\obj\Debug\net8.0\compressed\p76m9ok4sd-{0}-d1zsmyzana-d1zsmyzana.gz
+D:\Users\ten_vs\Documents\GitHub\SpellLearning\BackendApi\src\BlazorClient\obj\Debug\net8.0\compressed\bllwa4ry6o-{0}-7f3ym5pnmc-7f3ym5pnmc.gz

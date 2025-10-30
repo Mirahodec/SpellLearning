@@ -26,7 +26,8 @@ function createMagicParticles() {
     for (let i = 0; i < particleCount; i++) {
         const particle = document.createElement('div');
         particle.className = 'particle';
-        particle.style.left = Math.random() * 95 + 'vw';
+        // Keep particles within viewport bounds
+        particle.style.left = Math.random() * 100 + 'vw';
         particle.style.animationDelay = Math.random() * 12 + 's';
         particle.style.animationDuration = (8 + Math.random() * 15) + 's';
         particlesContainer.appendChild(particle);

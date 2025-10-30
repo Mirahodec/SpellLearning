@@ -71,9 +71,14 @@ namespace BackendApi
                 app.UseSwagger();
                 app.UseSwaggerUI();
             }
-            app.UseCors(builder => builder.WithOrigins(new[] { "http://localhost:8080", })
+            app.UseCors(policy => policy
+                .WithOrigins(
+                    "http://localhost:8080",
+                    "https://exemplary-enchantment-production-6968.up.railway.app"
+                )
                 .AllowAnyHeader()
-                .AllowAnyMethod());
+                .AllowAnyMethod()
+            );
 
             app.UseHttpsRedirection();
             app.UseRouting();

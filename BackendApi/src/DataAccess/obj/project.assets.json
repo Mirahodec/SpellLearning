@@ -2167,23 +2167,23 @@
     ]
   },
   "packageFolders": {
-    "D:\\Users\\ten_vs\\.nuget\\packages\\": {},
+    "C:\\Users\\TenVladislav\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Users\\ten_vs\\Documents\\GitHub\\SpellLearning\\BackendApi\\src\\DataAccess\\DataAccess.csproj",
+      "projectUniqueName": "C:\\Users\\TenVladislav\\Documents\\GitHub\\SpellLearning\\BackendApi\\src\\DataAccess\\DataAccess.csproj",
       "projectName": "DataAccess",
-      "projectPath": "D:\\Users\\ten_vs\\Documents\\GitHub\\SpellLearning\\BackendApi\\src\\DataAccess\\DataAccess.csproj",
-      "packagesPath": "D:\\Users\\ten_vs\\.nuget\\packages\\",
-      "outputPath": "D:\\Users\\ten_vs\\Documents\\GitHub\\SpellLearning\\BackendApi\\src\\DataAccess\\obj\\",
+      "projectPath": "C:\\Users\\TenVladislav\\Documents\\GitHub\\SpellLearning\\BackendApi\\src\\DataAccess\\DataAccess.csproj",
+      "packagesPath": "C:\\Users\\TenVladislav\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\TenVladislav\\Documents\\GitHub\\SpellLearning\\BackendApi\\src\\DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "D:\\Users\\ten_vs\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\TenVladislav\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -2198,8 +2198,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Users\\ten_vs\\Documents\\GitHub\\SpellLearning\\BackendApi\\src\\Domain\\Domain.csproj": {
-              "projectPath": "D:\\Users\\ten_vs\\Documents\\GitHub\\SpellLearning\\BackendApi\\src\\Domain\\Domain.csproj"
+            "C:\\Users\\TenVladislav\\Documents\\GitHub\\SpellLearning\\BackendApi\\src\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\TenVladislav\\Documents\\GitHub\\SpellLearning\\BackendApi\\src\\Domain\\Domain.csproj"
             }
           }
         }

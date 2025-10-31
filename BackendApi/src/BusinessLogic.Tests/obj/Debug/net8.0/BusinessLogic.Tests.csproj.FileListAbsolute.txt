@@ -240,9 +240,9 @@ C:\Users\TenVladislav\Documents\GitHub\SpellLearning\BackendApi\src\BusinessLogi
 C:\Users\TenVladislav\Documents\GitHub\SpellLearning\BackendApi\src\BusinessLogic.Tests\obj\Debug\net8.0\BusinessLogic.Tests.AssemblyInfo.cs
 C:\Users\TenVladislav\Documents\GitHub\SpellLearning\BackendApi\src\BusinessLogic.Tests\obj\Debug\net8.0\BusinessLogic.Tests.csproj.CoreCompileInputs.cache
 C:\Users\TenVladislav\Documents\GitHub\SpellLearning\BackendApi\src\BusinessLogic.Tests\obj\Debug\net8.0\BusinessLogic.Tests.sourcelink.json
-C:\Users\TenVladislav\Documents\GitHub\SpellLearning\BackendApi\src\BusinessLogic.Tests\obj\Debug\net8.0\BusinessLogic.Tests.csproj.CopyComplete
 C:\Users\TenVladislav\Documents\GitHub\SpellLearning\BackendApi\src\BusinessLogic.Tests\obj\Debug\net8.0\BusinessLogic.Tests.dll
 C:\Users\TenVladislav\Documents\GitHub\SpellLearning\BackendApi\src\BusinessLogic.Tests\obj\Debug\net8.0\refint\BusinessLogic.Tests.dll
 C:\Users\TenVladislav\Documents\GitHub\SpellLearning\BackendApi\src\BusinessLogic.Tests\obj\Debug\net8.0\BusinessLogic.Tests.pdb
 C:\Users\TenVladislav\Documents\GitHub\SpellLearning\BackendApi\src\BusinessLogic.Tests\obj\Debug\net8.0\BusinessLogic.Tests.genruntimeconfig.cache
 C:\Users\TenVladislav\Documents\GitHub\SpellLearning\BackendApi\src\BusinessLogic.Tests\obj\Debug\net8.0\ref\BusinessLogic.Tests.dll
+C:\Users\TenVladislav\Documents\GitHub\SpellLearning\BackendApi\src\BusinessLogic.Tests\obj\Debug\net8.0\Business.AFF7A17D.Up2Date

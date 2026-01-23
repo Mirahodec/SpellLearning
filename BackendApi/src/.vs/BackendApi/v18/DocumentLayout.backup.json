@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "D:\\Users\\ten_vs\\Documents\\GitHub\\SpellLearning\\BackendApi\\src\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Users\\ten_vs\\Documents\\GitHub\\SpellLearning\\BackendApi\\src\\Domain\\Migrations\\20260122091855_SpellLearning.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Domain\\Migrations\\20260122091855_SpellLearning.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DAC8F580-F4EB-4D7C-8828-769429111A64}|BusinessLogic\\BusinessLogic.csproj|d:\\users\\ten_vs\\documents\\github\\spelllearning\\backendapi\\src\\businesslogic\\businesslogic.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DAC8F580-F4EB-4D7C-8828-769429111A64}|BusinessLogic\\BusinessLogic.csproj|solutionrelative:businesslogic\\businesslogic.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B5C080B-4C16-4EC4-BAB8-B798A7606445}|BackendApi\\BackendApi.csproj|d:\\users\\ten_vs\\documents\\github\\spelllearning\\backendapi\\src\\backendapi\\backendapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0B5C080B-4C16-4EC4-BAB8-B798A7606445}|BackendApi\\BackendApi.csproj|solutionrelative:backendapi\\backendapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +18,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BusinessLogic",
+              "DocumentMoniker": "D:\\Users\\ten_vs\\Documents\\GitHub\\SpellLearning\\BackendApi\\src\\BusinessLogic\\BusinessLogic.csproj",
+              "RelativeDocumentMoniker": "BusinessLogic\\BusinessLogic.csproj",
+              "ToolTip": "D:\\Users\\ten_vs\\Documents\\GitHub\\SpellLearning\\BackendApi\\src\\BusinessLogic\\BusinessLogic.csproj*",
+              "RelativeToolTip": "BusinessLogic\\BusinessLogic.csproj*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-23T09:40:49.837Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
@@ -38,15 +55,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20260122091855_SpellLearning.cs",
-              "DocumentMoniker": "D:\\Users\\ten_vs\\Documents\\GitHub\\SpellLearning\\BackendApi\\src\\Domain\\Migrations\\20260122091855_SpellLearning.cs",
-              "RelativeDocumentMoniker": "Domain\\Migrations\\20260122091855_SpellLearning.cs",
-              "ToolTip": "D:\\Users\\ten_vs\\Documents\\GitHub\\SpellLearning\\BackendApi\\src\\Domain\\Migrations\\20260122091855_SpellLearning.cs",
-              "RelativeToolTip": "Domain\\Migrations\\20260122091855_SpellLearning.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-22T09:18:56.08Z",
+              "DocumentIndex": 1,
+              "Title": "BackendApi",
+              "DocumentMoniker": "D:\\Users\\ten_vs\\Documents\\GitHub\\SpellLearning\\BackendApi\\src\\BackendApi\\BackendApi.csproj",
+              "RelativeDocumentMoniker": "BackendApi\\BackendApi.csproj",
+              "ToolTip": "D:\\Users\\ten_vs\\Documents\\GitHub\\SpellLearning\\BackendApi\\src\\BackendApi\\BackendApi.csproj",
+              "RelativeToolTip": "BackendApi\\BackendApi.csproj",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-23T09:39:55.971Z",
               "EditorCaption": ""
             }
           ]

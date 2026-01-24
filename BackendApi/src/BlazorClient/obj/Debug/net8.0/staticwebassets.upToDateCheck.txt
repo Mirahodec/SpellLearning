@@ -1,3 +1,7 @@
+wwwroot\css\app — копия.txt
+wwwroot\css\logreg — копия.txt
+wwwroot\css\logreg.css
+wwwroot\js\Test.js
 wwwroot\css\app.css
 wwwroot\index.html
 wwwroot\js\jscode.js

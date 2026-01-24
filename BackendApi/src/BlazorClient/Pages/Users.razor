@@ -115,7 +115,7 @@
         try
         {
             using var client = new HttpClient();
-            client.BaseAddress = new Uri("https://spelllearning-production.up.railway.app/");
+            client.BaseAddress = new Uri("https://localhost:7113/");
 
             result = await client.GetFromJsonAsync<User[]>("api/User");
         }

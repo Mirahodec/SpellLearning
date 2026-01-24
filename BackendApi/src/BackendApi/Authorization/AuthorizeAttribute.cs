@@ -1,10 +1,8 @@
 ﻿using BackendApi.Authorization;
 using Domain.Entities;
 using Domain.Models;
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
-using Microsoft.EntityFrameworkCore;
 
 namespace BusinessLogic.Authorization
 {

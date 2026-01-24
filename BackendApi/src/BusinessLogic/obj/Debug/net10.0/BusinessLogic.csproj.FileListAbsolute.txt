@@ -16,3 +16,12 @@ D:\Users\ten_vs\Documents\GitHub\SpellLearning\BackendApi\src\BusinessLogic\obj\
 D:\Users\ten_vs\Documents\GitHub\SpellLearning\BackendApi\src\BusinessLogic\obj\Debug\net10.0\refint\BusinessLogic.dll
 D:\Users\ten_vs\Documents\GitHub\SpellLearning\BackendApi\src\BusinessLogic\obj\Debug\net10.0\BusinessLogic.pdb
 D:\Users\ten_vs\Documents\GitHub\SpellLearning\BackendApi\src\BusinessLogic\obj\Debug\net10.0\ref\BusinessLogic.dll
+C:\Users\TenVladislav\Documents\GitHub\SpellLearning\BackendApi\src\BusinessLogic\obj\Debug\net10.0\BusinessLogic.csproj.AssemblyReference.cache
+C:\Users\TenVladislav\Documents\GitHub\SpellLearning\BackendApi\src\BusinessLogic\obj\Debug\net10.0\BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TenVladislav\Documents\GitHub\SpellLearning\BackendApi\src\BusinessLogic\obj\Debug\net10.0\BusinessLogic.AssemblyInfoInputs.cache
+C:\Users\TenVladislav\Documents\GitHub\SpellLearning\BackendApi\src\BusinessLogic\obj\Debug\net10.0\BusinessLogic.AssemblyInfo.cs
+C:\Users\TenVladislav\Documents\GitHub\SpellLearning\BackendApi\src\BusinessLogic\obj\Debug\net10.0\BusinessLogic.csproj.CoreCompileInputs.cache
+C:\Users\TenVladislav\Documents\GitHub\SpellLearning\BackendApi\src\BusinessLogic\obj\Debug\net10.0\BusinessLogic.sourcelink.json
+C:\Users\TenVladislav\Documents\GitHub\SpellLearning\BackendApi\src\BusinessLogic\obj\Debug\net10.0\BusinessLogic.dll
+C:\Users\TenVladislav\Documents\GitHub\SpellLearning\BackendApi\src\BusinessLogic\obj\Debug\net10.0\refint\BusinessLogic.dll
+C:\Users\TenVladislav\Documents\GitHub\SpellLearning\BackendApi\src\BusinessLogic\obj\Debug\net10.0\BusinessLogic.pdb

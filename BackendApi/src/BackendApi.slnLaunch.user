@@ -1,0 +1,17 @@
+[
+  {
+    "Name": "Новый профиль",
+    "Projects": [
+      {
+        "Path": "BackendApi\\BackendApi.csproj",
+        "Action": "Start",
+        "DebugTarget": "BackendApi"
+      },
+      {
+        "Path": "BlazorClient\\BlazorClient.csproj",
+        "Action": "Start",
+        "DebugTarget": "http"
+      }
+    ]
+  }
+]

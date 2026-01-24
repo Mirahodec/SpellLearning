@@ -1,8 +1,4 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Metadata;
-using System;
-using System.Collections.Generic;
-
 namespace Domain.Models
 {
     public partial class SpellLearningContext : DbContext
@@ -15,7 +11,6 @@ namespace Domain.Models
             : base(options)
         {
         }
-
         public virtual DbSet<DeckSlot> DeckSlots { get; set; } = null!;
         public virtual DbSet<GachaPull> GachaPulls { get; set; } = null!;
         public virtual DbSet<GameSafe> GameSaves { get; set; } = null!;
@@ -274,7 +269,7 @@ namespace Domain.Models
 
                 entity.Property(e => e.PasswordHash)
                     .HasMaxLength(255)
-                    .HasColumnName("password_hash");
+                    .HasColumnName("password");
 
                 entity.Property(e => e.Username)
                     .HasMaxLength(50)

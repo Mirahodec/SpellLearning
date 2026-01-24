@@ -134,3 +134,16 @@ D:\Users\ten_vs\Documents\GitHub\SpellLearning\BackendApi\src\BackendApi\bin\Deb
 D:\Users\ten_vs\Documents\GitHub\SpellLearning\BackendApi\src\BackendApi\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
 D:\Users\ten_vs\Documents\GitHub\SpellLearning\BackendApi\src\BackendApi\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
 D:\Users\ten_vs\Documents\GitHub\SpellLearning\BackendApi\src\BackendApi\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\TenVladislav\Documents\GitHub\SpellLearning\BackendApi\src\BackendApi\obj\Debug\net10.0\BackendApi.csproj.AssemblyReference.cache
+C:\Users\TenVladislav\Documents\GitHub\SpellLearning\BackendApi\src\BackendApi\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Users\TenVladislav\Documents\GitHub\SpellLearning\BackendApi\src\BackendApi\obj\Debug\net10.0\BackendApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TenVladislav\Documents\GitHub\SpellLearning\BackendApi\src\BackendApi\obj\Debug\net10.0\BackendApi.AssemblyInfoInputs.cache
+C:\Users\TenVladislav\Documents\GitHub\SpellLearning\BackendApi\src\BackendApi\obj\Debug\net10.0\BackendApi.AssemblyInfo.cs
+C:\Users\TenVladislav\Documents\GitHub\SpellLearning\BackendApi\src\BackendApi\obj\Debug\net10.0\BackendApi.csproj.CoreCompileInputs.cache
+C:\Users\TenVladislav\Documents\GitHub\SpellLearning\BackendApi\src\BackendApi\obj\Debug\net10.0\BackendApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\TenVladislav\Documents\GitHub\SpellLearning\BackendApi\src\BackendApi\obj\Debug\net10.0\BackendApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\TenVladislav\Documents\GitHub\SpellLearning\BackendApi\src\BackendApi\obj\Debug\net10.0\BackendApi.sourcelink.json
+C:\Users\TenVladislav\Documents\GitHub\SpellLearning\BackendApi\src\BackendApi\obj\Debug\net10.0\BackendApi.dll
+C:\Users\TenVladislav\Documents\GitHub\SpellLearning\BackendApi\src\BackendApi\obj\Debug\net10.0\refint\BackendApi.dll
+C:\Users\TenVladislav\Documents\GitHub\SpellLearning\BackendApi\src\BackendApi\obj\Debug\net10.0\BackendApi.xml
+C:\Users\TenVladislav\Documents\GitHub\SpellLearning\BackendApi\src\BackendApi\obj\Debug\net10.0\BackendApi.pdb

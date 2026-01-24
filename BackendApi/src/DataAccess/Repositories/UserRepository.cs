@@ -12,7 +12,7 @@ namespace DataAccess.Repositories
         }
         public async Task<User> GetByIdWithToken(int userId) =>
             await RepositoryContext.Set<User>().Include(x => x.RefreshTokens).AsNoTracking().FirstOrDefaultAsync(x => x.UserId == userId);
-        public async Task<User> GetByIdWithToken(string email) =>
+        public async Task<User> GetByEmailWithToken(string email) =>
             await RepositoryContext.Set<User>().Include(x => x.RefreshTokens).AsNoTracking().FirstOrDefaultAsync(x => x.Email == email);
     }
 }

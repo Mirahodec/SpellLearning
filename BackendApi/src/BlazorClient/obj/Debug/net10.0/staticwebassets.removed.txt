@@ -1,0 +1,3 @@
+D:\Users\ten_vs\Documents\GitHub\SpellLearning\BackendApi\src\BlazorClient\wwwroot\css\app.css
+D:\Users\ten_vs\Documents\GitHub\SpellLearning\BackendApi\src\BlazorClient\wwwroot\index.html
+D:\Users\ten_vs\Documents\GitHub\SpellLearning\BackendApi\src\BlazorClient\wwwroot\js\jscode.js
